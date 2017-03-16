@@ -1,0 +1,35 @@
+# zwc 2016.05.05
+添加对oracle数据库采集的支持
+主要涉及的有两个方法，第一个是get_insert_sql，屏蔽mysql和oracle绑定变量之间的差距，另外一个方式trans_oracle_encoding，
+负责把oracle的gbk编码解码，能够debug调试，不显示乱码。
+
+# zwx 2016.05.10
+杭州城管采集整理提交
+
+# zwx 2016-05-19
+修改last_act_id采集
+采集失败时，日志表只保留最后一条采集失败记录。
+
+# zwx 2016-05-19
+数据管理命令修改
+
+# zwx 2016-05-27
+增加固化考核数据明细任务
+修改采集结构
+
+# zwx 2016-06-21
+增加sh脚本，修改命名
+杭州采集持续更新
+去除zwc修改内容
+
+# zwx 2016-06-22
+采集入口修改
+app.py
+四个损坏统计采集修改
+/protable/statFourDamaged.py
+/promodules/statFourDamagedGather.py
+projectSettings.py
+时段统计数据表采集
+/protable/statReportPeriod.py
+projectGather.py
+
