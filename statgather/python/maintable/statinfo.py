@@ -25,20 +25,20 @@ field = (# 案件标识 任务号 上报时间 问题描述 地址 问题来源�
          # 受理阶段
          "operate_num", "operate_human_id", "operate_human_name", "operate_role_id", "operate_time", "intime_operate_num", "not_operate_num", 
          # 发核实
-         "need_send_verify_num", "send_verify_num", "send_verify_human_id", "send_verify_human_name", "send_verify_role_id", "send_verify_time", "intime_send_verify_num", 
+         "need_send_verify_num", "send_verify_num", "send_verify_human_id", "send_verify_human_name", "send_verify_time", "intime_send_verify_num",
          # 监督员核实
          "need_verify_num", "verify_num", "verify_patrol_id", "verify_patrol_name", "verify_time", "intime_verify_num", 
          # 立案阶段
          "inst_num", "inst_human_id", "inst_human_name", "inst_role_id", "inst_time", "intime_inst_num", "not_inst_num", 
          # 派遣阶段
          "need_dispatch_num", "dispatch_num", "dispatch_human_id", "dispatch_human_name", "dispatch_role_id", "dispatch_time", "intime_dispatch_num", "to_dispatch_num", 
-         "need_second_dispatch_num", "second_dispatch_num", "second_dispatch_human_id", "second_dispatch_human_name", "second_dispatch_role_id", "second_dispatch_time", "intime_second_dispatch_num", "to_second_dispatch_num", 
+         "need_second_dispatch_num", "second_dispatch_num", "second_dispatch_human_id", "second_dispatch_human_name", "second_dispatch_role_id", "second_dispatch_time", "intime_second_dispatch_num",
          # 处置阶段
          "need_dispose_num", "dispose_num", "intime_dispose_num", "overtime_dispose_num", "to_dispose_num", "intime_to_dispose_num", "overtime_to_dispose_num", 
          # 特殊指标，返工数、返工次数、城区返工数、城区返工次数、挂账数、历史挂账数、推诿数
          "rework_num", "multi_rework_num", "district_rework_num", "multi_district_rework_num", "hang_num", "his_hang_num", "postpone_num", "shuffle_num",
          "need_archive_num", "archive_num", "intime_archive_num", "overtime_archive_num", "to_archive_num", "intime_to_archive_num", "overtime_to_archive_num", 
-         "dispose_unit_id", "dispose_unit_name", "dispose_region_id", "dispose_region_name", "first_unit_id", "first_unit_name", "second_unit_id", "second_unit_name", "third_unit_id", "third_unit_name", 
+         "dispose_unit_id", "dispose_unit_name", "dispose_region_id", "dispose_region_name", "first_unit_id", "first_unit_name", "second_unit_id", "second_unit_name", "third_unit_id", "third_unit_name",
          "dispose_begin_time", "dispose_end_time", "dispose_deadline", "bundle_dispose_deadline", "dispose_used", "bundle_dispose_used", "dispose_limit", "bundle_dispose_limit", 
          # 特殊指标，超时处置倍数、捆绑超时处置倍数
          "dispose_overtime_times", "bundle_dispose_overtime_times", 
@@ -65,6 +65,8 @@ field = (# 案件标识 任务号 上报时间 问题描述 地址 问题来源�
          # 立案条件标识 立案条件 结案条件标识 结案条件
          "new_inst_cond_id", "new_inst_cond_name", "archive_cond_id", "archive_cond_name", 
          # 最后更新时间
-         "last_update_time")
+         "last_update_time",
+         # 宁波城管指标
+         )
 
 extend_field = ()
