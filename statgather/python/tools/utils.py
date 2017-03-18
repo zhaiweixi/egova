@@ -65,8 +65,7 @@ def query_for_list(cur, sql, param=None):
             result_dict = dict(zip(columns, result))
             result_list.append(result_dict)
     except Exception, e:
-        logger.error("select error [%s]:[%s]:[%s]" %(sql, param, str(e)))
-        result_list = None
+        result_list = []
     return result_list
 
 def query_for_dict(cur, sql, param=None):
@@ -81,7 +80,7 @@ def query_for_dict(cur, sql, param=None):
         columns = [val[0].lower() for val in cur.description]
         result_dict = dict(zip(columns, cur.fetchone()))
     except Exception, e:
-        result_dict = None
+        result_dict = {}
     return result_dict
 
 def gen_insert_sql_one(table_name, table_dict, field_tuple):
@@ -101,7 +100,7 @@ def gen_insert_sql_one(table_name, table_dict, field_tuple):
     for key, value in table_dict.items():
         if key in field_tuple and (value or value == 0):
             field_str += ", " + key
-            if (settings.dbTypeName == "oracle"):
+            if settings.dbTypeName == "oracle":
                 value_str += ", :" + str(param_order)
             else:
                 value_str += ", %s"

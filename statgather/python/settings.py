@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+VERSION = 2.0
+
 # 数据库配置
 # dbTypeName 数据库类型 oracle | mysql
 # stat_conn 统计库连接配置
