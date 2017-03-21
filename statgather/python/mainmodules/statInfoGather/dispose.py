@@ -52,7 +52,6 @@ def execute(stat_cur, biz_cur, recInfo, sysInfo, stat_info_dict):
     
     # 处置信息
     if dispose_act_inst:
-        print "11"
         stat_info_dict["dispose_end_time"] = dispose_act_inst["end_time"] if stat_info_dict.has_key("dispose_num") and stat_info_dict["dispose_num"] == 1 else None
         stat_info_dict["dispose_deadline"] = dispose_act_inst["deadline_time"]
         stat_info_dict["dispose_begin_time"] = dispose_act_inst["create_time"]

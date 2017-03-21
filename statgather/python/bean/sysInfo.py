@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 """
    zwx 2016-05-27
    系统配置信息

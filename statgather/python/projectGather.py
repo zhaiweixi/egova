@@ -12,7 +12,8 @@ from bean.toWFItemInst import toWFItemInstFactory
 """
 def gather_handler(biz_cur, stat_cur, recInfo, sysInfo):
      # to_stat_info
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+    pass
+    # gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
 
 """
     采集to_stat_info表个性化指标

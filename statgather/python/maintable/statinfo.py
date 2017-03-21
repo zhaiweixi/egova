@@ -67,6 +67,7 @@ field = (# 案件标识 任务号 上报时间 问题描述 地址 问题来源�
          # 最后更新时间
          "last_update_time",
          # 宁波城管指标
-         )
+         "handle_human", "handle_unit", "pass_unit", "pass_human", "apply_type", "is_phone_reply", "is_reply_flag", "appoint_flag", "line_disruption",
+         "deal_unit_flag", "deal_operator_id", "")
 
 extend_field = ()

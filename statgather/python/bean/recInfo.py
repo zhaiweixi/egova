@@ -36,7 +36,9 @@ class recInfoFactory(object):
         问题标记、结案类型
         道路名称 道路标识 道路类型标识 道路类型
         立案建议 修正意见
-        区域类型标识
+        区域类型标识 核查状态标识 当前办理部门 当前办理人员 经办部门 经办人员
+        申请类型 是否热线回访 ...
+        代处置标识
         """
         rec_id = self.__recID
         toRec = (schemaConst.dlhist_ + "to_his_rec") if self.__isHisRec else schemaConst.dlmis_ + "to_rec"
@@ -51,7 +53,8 @@ class recInfoFactory(object):
                         road_name, road_id, road_type_id, road_type_name,
                         new_inst_advise, revise_opinion,
                         area_type_id,check_msg_state_id, handle_unit, handle_human, pass_unit, pass_human,
-                        apply_type, is_phone_reply, is_reply_flag, appoint_flag, line_disruption, deal_unit_flag
+                        apply_type, is_phone_reply, is_reply_flag, appoint_flag, line_disruption, deal_unit_flag,
+                        substitution_flag
                    from %(toRec)s where rec_id = %(rec_id)s """
 
         # 执行sql
@@ -242,6 +245,12 @@ class recInfoFactory(object):
             "rec_id": self.__recID
         }
         self.__data["rec_act_list"] = query_for_list(biz_cur, sql % param)
+        sql = "select * from %(wf_postpone_time)s where rec_id = %(rec_id)s"
+        param = {
+            "wf_postpone_time": schemaConst.dlhist_ + "to_his_wf_postpone_time" if self.__isHisRec else schemaConst.dlmis_ + "to_wf_postpone_time",
+            "rec_id": self.__recID
+        }
+        self.__data["wf_postpone_time_list"] = query_for_list(biz_cur, sql % param)
 
     def __get_wf_act_inst_info(self, biz_cur, stat_cur):
         # 案件批转实例信息
@@ -275,7 +284,7 @@ class recInfoFactory(object):
                 "role_id": wf_act_inst_dict["role_id"],
                 "role_name": wf_act_inst_dict["role_name"],
                 "human_id": wf_act_inst_dict["human_id"],
-                "human_name": wf_act_inst_dict["humanname"],
+                "human_name": wf_act_inst_dict["human_name"],
                 "create_time": wf_act_inst_dict["create_time"],
                 "start_time": wf_act_inst_dict["start_time"],
                 "deadline_time": wf_act_inst_dict["deadline_time"],
