@@ -1,4 +1,8 @@
 # coding:utf-8
+"""
+    2017-03-23 zwx __init_rec_wf_info中增加to_call_record表
+    rec_info增加字段agree_time(申请疑难缓办指挥长同意时间) is_stockpile_flag(是否积存案件 0:不是|1:是|2:跳出积存)
+"""
 import sys
 sys.path.append("..")
 import constant.schemaConst as schemaConst
@@ -12,8 +16,7 @@ class recInfoFactory(object):
         """
         self.__recID = rec_id
         self.__isHisRec = self.__get_rec_his_flag(biz_cur = biz_cur, stat_cur = stat_cur) == 1
-        self.__data = {}
-        self.__data["rec_id"] = rec_id
+        self.__data = {"rec_id": rec_id}
         # since 2.0
         self.__init_rec_wf_info(biz_cur=biz_cur, stat_cur=stat_cur)
         self.__data["rec_info"] = self.__get_rec_info(biz_cur = biz_cur, stat_cur = stat_cur)
@@ -38,7 +41,8 @@ class recInfoFactory(object):
         立案建议 修正意见
         区域类型标识 核查状态标识 当前办理部门 当前办理人员 经办部门 经办人员
         申请类型 是否热线回访 ...
-        代处置标识
+        代处置标识 问题level标识 问题level
+        指挥长同意时间 是否积存案件
         """
         rec_id = self.__recID
         toRec = (schemaConst.dlhist_ + "to_his_rec") if self.__isHisRec else schemaConst.dlmis_ + "to_rec"
@@ -54,7 +58,8 @@ class recInfoFactory(object):
                         new_inst_advise, revise_opinion,
                         area_type_id,check_msg_state_id, handle_unit, handle_human, pass_unit, pass_human,
                         apply_type, is_phone_reply, is_reply_flag, appoint_flag, line_disruption, deal_unit_flag,
-                        substitution_flag
+                        substitution_flag, event_level_id, event_level_name,
+                        agree_time, is_stockpile_flag
                    from %(toRec)s where rec_id = %(rec_id)s """
 
         # 执行sql
@@ -191,24 +196,13 @@ class recInfoFactory(object):
                     if biz_cur.rowcount:
                         rec_info["act_property_id"] = biz_cur.fetchone()[0]
                         rec_info["real_act_property_id"] == 103
-                # sql = """
-                #                         select a.act_property_id from tc_wf_act_def a, to_wf_item_inst b
-                #                           where a.act_def_name = b.act_def_name and b.item_type_id = 810
-                #                             and b.rec_id = %s
-                #                           order by b.action_time desc
-                #                       """
-                # biz_cur.execute(sql % rec_id)
-                # if (biz_cur.rowcount > 0):
-                #     row = biz_cur.fetchone()
-                #     rec_info["act_property_id"] = row[0]
-                #     rec_info["real_act_property_id"] = 103
         except Exception, e:
             logger.error("rec hang act_property_id init error[rec_id = %s]: %s" % (rec_id, str(e)))
 
     def __init_rec_wf_info(self, biz_cur, stat_cur):
         # init workflow info, include tables:
         # to_wf_act_inst, to_wf_trans_inst, to_wf_item_inst, to_rec_time_bundle, to_wf_act_ard
-        #
+        # to_call_record
         sql = "select * from %(wf_act_inst)s where rec_id = %(rec_id)s"
         param = {
             "wf_act_inst": schemaConst.dlhist_ + "to_his_wf_act_inst" if self.__isHisRec else schemaConst.dlmis_ + "to_wf_act_inst",
@@ -251,6 +245,12 @@ class recInfoFactory(object):
             "rec_id": self.__recID
         }
         self.__data["wf_postpone_time_list"] = query_for_list(biz_cur, sql % param)
+        sql = "select * from %(call_record)s where rec_id = %(rec_id)s"
+        param = {
+            "call_record": schemaConst.dlmis_ + "to_call_record",
+            "rec_id": self.__recID
+        }
+        self.__data["call_record"] = query_for_list(biz_cur, sql % param)
 
     def __get_wf_act_inst_info(self, biz_cur, stat_cur):
         # 案件批转实例信息

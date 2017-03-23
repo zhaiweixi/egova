@@ -1,10 +1,9 @@
-#coding: utf-8
+# coding: utf-8
 """
     zwx 2016-07-26
     单条采集测试
 """
 import app
-import logging
 import logging.config
 from bean.sysInfo import sysInfoFactory
 
@@ -33,7 +32,7 @@ def test_one():
             test_gather_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = int(rec_id), sysInfo = sysInfo)
             stat_conn.commit()
             biz_conn.commit()
-            print u"[rec_id = ",rec_id, u"]采集成功"
+            print u"[rec_id = ", rec_id, u"]采集成功"
         print u"  请继续输入案件号:"
 
 if __name__ == "__main__":

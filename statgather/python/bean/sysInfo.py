@@ -22,11 +22,11 @@ class sysInfoFactory(object):
         }
 
         self.__initActDefInfo(biz_cur = biz_cur)
-        self.__initRegion(biz_cur = biz_cur)
-        self.__initHuman(biz_cur = biz_cur)
-        self.__initRole(biz_cur = biz_cur)
-        self.__initUnit(biz_cur = biz_cur)
-        self.__initPatrol(biz_cur = biz_cur)
+        self.__init_region(biz_cur = biz_cur)
+        self.__init_human(biz_cur = biz_cur)
+        self.__init_role(biz_cur = biz_cur)
+        self.__init_unit(biz_cur = biz_cur)
+        self.__init_patrol(biz_cur = biz_cur)
 
     @staticmethod
     def __get_schedule(biz_cur):
@@ -87,7 +87,7 @@ class sysInfoFactory(object):
 
     # 初始区域信息
     # 2016-11-17 zwx 只缓存到社区级别
-    def __initRegion(self, biz_cur):
+    def __init_region(self, biz_cur):
         self.__data["region"] = {}
         sql = "select region_id, region_name, region_type, senior_id from " + schemaConst.dlsys_ + "tc_region where region_type < 5"
         biz_cur.execute(sql)
@@ -101,7 +101,7 @@ class sysInfoFactory(object):
             }
 
     # 初始化人员信息
-    def __initHuman(self, biz_cur):
+    def __init_human(self, biz_cur):
         self.__data["human"] = {}
         sql = "select human_id, human_name, region_id, region_type, unit_id from " + schemaConst.dlsys_ + "tc_human"
         biz_cur.execute(sql)
@@ -116,7 +116,7 @@ class sysInfoFactory(object):
             }
 
     # 初始化岗位信息
-    def __initRole(self, biz_cur):
+    def __init_role(self, biz_cur):
         self.__data["role"] = {}
         sql = "select role_id, role_name, unit_id from " + schemaConst.dlsys_ + "tc_role"
         biz_cur.execute(sql)
@@ -129,7 +129,7 @@ class sysInfoFactory(object):
             }
 
     # 初始化部门信息
-    def __initUnit(self, biz_cur):
+    def __init_unit(self, biz_cur):
         self.__data["unit"] = {}
         sql = "select unit_id, unit_name, senior_id, region_id, region_type from " + schemaConst.dlsys_ + "tc_unit"
         biz_cur.execute(sql)
@@ -144,7 +144,7 @@ class sysInfoFactory(object):
             }
 
     # 初始化监督员信息, 生成两个字典, 分别以patrol_id card_id为键
-    def __initPatrol(self, biz_cur):
+    def __init_patrol(self, biz_cur):
         self.__data["patrol"] = {}
         self.__data["patrol_card"] = {}
         sql = "select a.patrol_id, a.patrol_name, a.card_id, a.region_id, b.unit_id as unit_id from " + schemaConst.dlsys_ + "tc_patrol a, " + schemaConst.dlsys_ + "tc_human b "

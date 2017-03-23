@@ -1,1 +1,0 @@
-alter table to_stat_info change column thrid_unit_name third_unit_name varchar(200);

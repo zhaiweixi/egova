@@ -64,7 +64,7 @@ def query_for_list(cur, sql, param=None):
             result_dict = dict(zip(columns, result))
             result_list.append(result_dict)
     except Exception, e:
-        logger.error("[sql=%s]:%s", (sql, traceback.format_exc()))
+        logger.error("[sql=%s]:%s" % (sql, traceback.format_exc()))
         result_list = []
     return result_list
 
@@ -81,7 +81,7 @@ def query_for_dict(cur, sql, param=None):
         columns = [val[0].lower() for val in cur.description]
         result_dict = dict(zip(columns, cur.fetchone()))
     except Exception, e:
-        logger.error("[sql=%s]:%s", (sql, traceback.format_exc()))
+        logger.error("[sql=%s]:%s" %(sql, traceback.format_exc()))
         result_dict = {}
     return result_dict
 

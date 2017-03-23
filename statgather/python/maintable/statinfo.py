@@ -66,8 +66,23 @@ field = (# 案件标识 任务号 上报时间 问题描述 地址 问题来源�
          "new_inst_cond_id", "new_inst_cond_name", "archive_cond_id", "archive_cond_name", 
          # 最后更新时间
          "last_update_time",
-         # 宁波城管指标
-         "handle_human", "handle_unit", "pass_unit", "pass_human", "apply_type", "is_phone_reply", "is_reply_flag", "appoint_flag", "line_disruption",
-         "deal_unit_flag", "deal_operator_id", "")
+         # 在办人员 在办部门 经办部门 经办人员 指挥长案件申请类型 是否需要回访
+         "handle_human", "handle_unit", "pass_unit", "pass_human", "apply_type", "is_phone_reply",
+         # 是否已回复 是否指定案件 热线通畅
+         "is_reply_flag", "appoint_flag", "line_disruption",
+         # 经办阶段 指挥长案件剩余天数
+         "pass_act_def", "over_plus_day",
+         # 考评发现立案数 领导交办立案数 督查检查立案数 网络上报立案数 热线举报立案数 媒体监督立案数
+         "assess_inst_num", "assign_inst_num", "inspection_inst_num", "internet_inst_num", "hotline_inst_num", "media_inst_num",
+         # 信息采集立案数 区视频上报立案数 市视频上报立案数
+         "patrol_inst_num", "district_video_inst_num", "city_video_inst_num",
+         # 准确派遣数 错误派遣数
+         "accur_dispatch_num", "wrong_dispatch_num",
+         # 积存案件数 跳出积存案件数 进入积存时间
+         "stock_num", "escape_stock_num", "stock_time",
+         # 应回复数 回复数 待回访数 回访数 回复漏报数 满意度 满意度得分 服务满意度 服务满意度得分
+         "need_reply_num", "reply_num", "to_visit_num", "visit_num", "omit_reply_num", "satisfaction_id", "satisfaction_score", "service_satisfaction_id", "service_satisfaction_score",
+         # 
+)
 
 extend_field = ()

@@ -1,374 +1,202 @@
-2017-03-21 10:21:01,111 INFO [main.timer(43):---------------------------------------------]
-2017-03-21 10:21:01,111 INFO [main.timer(44):采集开始:]
-2017-03-21 10:21:03,806 ERROR [main.timer(66):rec gather error:[rec_id=1]: 'humanname']
-2017-03-21 10:21:04,032 ERROR [main.timer(66):rec gather error:[rec_id=2]: 'humanname']
-2017-03-21 10:21:04,276 ERROR [main.timer(66):rec gather error:[rec_id=3]: 'humanname']
-2017-03-21 10:21:04,499 ERROR [main.timer(66):rec gather error:[rec_id=4]: 'humanname']
-2017-03-21 10:21:04,755 ERROR [main.timer(66):rec gather error:[rec_id=5]: 'humanname']
-2017-03-21 10:21:04,967 ERROR [main.timer(66):rec gather error:[rec_id=6]: 'humanname']
-2017-03-21 10:21:05,115 ERROR [main.timer(66):rec gather error:[rec_id=7]: 'humanname']
-2017-03-21 10:21:05,374 ERROR [main.timer(66):rec gather error:[rec_id=8]: 'humanname']
-2017-03-21 10:21:05,523 ERROR [main.timer(66):rec gather error:[rec_id=9]: 'humanname']
-2017-03-21 10:21:05,802 ERROR [main.timer(66):rec gather error:[rec_id=10]: 'humanname']
-2017-03-21 10:21:06,154 ERROR [main.timer(66):rec gather error:[rec_id=11]: 'humanname']
-2017-03-21 10:21:06,354 ERROR [main.timer(66):rec gather error:[rec_id=12]: 'humanname']
-2017-03-21 10:21:06,569 ERROR [main.timer(66):rec gather error:[rec_id=13]: 'humanname']
-2017-03-21 10:21:06,737 ERROR [main.timer(66):rec gather error:[rec_id=14]: 'humanname']
-2017-03-21 10:21:06,908 ERROR [main.timer(66):rec gather error:[rec_id=15]: 'humanname']
-2017-03-21 10:21:07,052 ERROR [main.timer(66):rec gather error:[rec_id=16]: 'humanname']
-2017-03-21 10:21:07,236 ERROR [main.timer(66):rec gather error:[rec_id=17]: 'humanname']
-2017-03-21 10:21:07,401 ERROR [main.timer(66):rec gather error:[rec_id=18]: 'humanname']
-2017-03-21 10:21:07,572 ERROR [main.timer(66):rec gather error:[rec_id=19]: 'humanname']
-2017-03-21 10:21:07,724 ERROR [main.timer(66):rec gather error:[rec_id=20]: 'humanname']
-2017-03-21 10:21:07,970 ERROR [main.timer(66):rec gather error:[rec_id=21]: 'humanname']
-2017-03-21 10:21:08,160 ERROR [main.timer(66):rec gather error:[rec_id=22]: 'humanname']
-2017-03-21 10:21:08,318 ERROR [main.timer(66):rec gather error:[rec_id=23]: 'humanname']
-2017-03-21 10:21:08,480 ERROR [main.timer(66):rec gather error:[rec_id=24]: 'humanname']
-2017-03-21 10:21:08,625 ERROR [main.timer(66):rec gather error:[rec_id=25]: 'humanname']
-2017-03-21 10:21:08,795 ERROR [main.timer(66):rec gather error:[rec_id=26]: 'humanname']
-2017-03-21 10:21:08,957 ERROR [main.timer(66):rec gather error:[rec_id=27]: 'humanname']
-2017-03-21 10:21:09,163 ERROR [main.timer(66):rec gather error:[rec_id=28]: 'humanname']
-2017-03-21 10:21:09,361 ERROR [main.timer(66):rec gather error:[rec_id=29]: 'humanname']
-2017-03-21 10:21:09,533 ERROR [main.timer(66):rec gather error:[rec_id=30]: 'humanname']
-2017-03-21 10:21:09,677 ERROR [main.timer(66):rec gather error:[rec_id=31]: 'humanname']
-2017-03-21 10:21:09,854 ERROR [main.timer(66):rec gather error:[rec_id=32]: 'humanname']
-2017-03-21 10:21:10,053 ERROR [main.timer(66):rec gather error:[rec_id=33]: 'humanname']
-2017-03-21 10:22:04,209 INFO [main.timer(43):---------------------------------------------]
-2017-03-21 10:22:04,210 INFO [main.timer(44):采集开始:]
-2017-03-21 10:22:06,865 ERROR [main.timer(66):rec gather error:[rec_id=1]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:07,053 ERROR [main.timer(66):rec gather error:[rec_id=2]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:07,227 ERROR [main.timer(66):rec gather error:[rec_id=3]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:07,467 ERROR [main.timer(66):rec gather error:[rec_id=4]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:07,677 ERROR [main.timer(66):rec gather error:[rec_id=5]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:07,951 ERROR [main.timer(66):rec gather error:[rec_id=6]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:08,154 ERROR [main.timer(66):rec gather error:[rec_id=7]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:08,378 ERROR [main.timer(66):rec gather error:[rec_id=8]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:08,562 ERROR [main.timer(66):rec gather error:[rec_id=9]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:08,744 ERROR [main.timer(66):rec gather error:[rec_id=10]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:08,992 ERROR [main.timer(66):rec gather error:[rec_id=11]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:09,259 ERROR [main.timer(66):rec gather error:[rec_id=12]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:09,487 ERROR [main.timer(66):rec gather error:[rec_id=13]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:10,915 ERROR [main.timer(66):rec gather error:[rec_id=15]: 'role_id']
-2017-03-21 10:22:11,193 ERROR [main.timer(66):rec gather error:[rec_id=16]: 'role_id']
-2017-03-21 10:22:11,420 ERROR [main.timer(66):rec gather error:[rec_id=17]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:11,605 ERROR [main.timer(66):rec gather error:[rec_id=18]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:11,759 ERROR [main.timer(66):rec gather error:[rec_id=19]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:11,923 ERROR [main.timer(66):rec gather error:[rec_id=20]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:12,092 ERROR [main.timer(66):rec gather error:[rec_id=21]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:12,575 ERROR [main.timer(66):rec gather error:[rec_id=23]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:12,732 ERROR [main.timer(66):rec gather error:[rec_id=24]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:12,895 ERROR [main.timer(66):rec gather error:[rec_id=25]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:13,059 ERROR [main.timer(66):rec gather error:[rec_id=26]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:13,276 ERROR [main.timer(66):rec gather error:[rec_id=27]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:13,653 ERROR [main.timer(66):rec gather error:[rec_id=28]: 'role_id']
-2017-03-21 10:22:13,864 ERROR [main.timer(66):rec gather error:[rec_id=29]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,015 ERROR [main.timer(66):rec gather error:[rec_id=30]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,181 ERROR [main.timer(66):rec gather error:[rec_id=31]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,334 ERROR [main.timer(66):rec gather error:[rec_id=32]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,503 ERROR [main.timer(66):rec gather error:[rec_id=33]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,641 ERROR [main.timer(66):rec gather error:[rec_id=34]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,829 ERROR [main.timer(66):rec gather error:[rec_id=35]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:14,976 ERROR [main.timer(66):rec gather error:[rec_id=36]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:15,164 ERROR [main.timer(66):rec gather error:[rec_id=37]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:15,348 ERROR [main.timer(66):rec gather error:[rec_id=38]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:22:15,517 ERROR [main.timer(66):rec gather error:[rec_id=39]: __extend_accept_info() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:23:01,217 INFO [main.timer(43):---------------------------------------------]
-2017-03-21 10:23:01,217 INFO [main.timer(44):采集开始:]
-2017-03-21 10:23:05,224 ERROR [main.timer(66):rec gather error:[rec_id=1]: 'operate_human_id']
-2017-03-21 10:23:05,497 ERROR [main.timer(66):rec gather error:[rec_id=2]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:23:05,694 ERROR [main.timer(66):rec gather error:[rec_id=3]: 'operate_human_id']
-2017-03-21 10:23:05,927 ERROR [main.timer(66):rec gather error:[rec_id=4]: 'operate_human_id']
-2017-03-21 10:23:06,167 ERROR [main.timer(66):rec gather error:[rec_id=5]: 'operate_human_id']
-2017-03-21 10:23:06,515 ERROR [main.timer(66):rec gather error:[rec_id=6]: 'operate_human_id']
-2017-03-21 10:23:06,852 ERROR [main.timer(66):rec gather error:[rec_id=7]: 'operate_human_id']
-2017-03-21 10:23:07,111 ERROR [main.timer(66):rec gather error:[rec_id=8]: 'operate_human_id']
-2017-03-21 10:23:07,309 ERROR [main.timer(66):rec gather error:[rec_id=9]: 'operate_human_id']
-2017-03-21 10:23:07,578 ERROR [main.timer(66):rec gather error:[rec_id=10]: 'operate_human_id']
-2017-03-21 10:23:07,822 ERROR [main.timer(66):rec gather error:[rec_id=11]: 'operate_human_id']
-2017-03-21 10:23:08,082 ERROR [main.timer(66):rec gather error:[rec_id=12]: 'operate_human_id']
-2017-03-21 10:23:08,312 ERROR [main.timer(66):rec gather error:[rec_id=13]: 'operate_human_id']
-2017-03-21 10:23:08,813 ERROR [main.timer(66):rec gather error:[rec_id=15]: 'role_id']
-2017-03-21 10:23:09,134 ERROR [main.timer(66):rec gather error:[rec_id=16]: 'role_id']
-2017-03-21 10:23:09,342 ERROR [main.timer(66):rec gather error:[rec_id=17]: 'operate_human_id']
-2017-03-21 10:23:09,536 ERROR [main.timer(66):rec gather error:[rec_id=18]: 'operate_human_id']
-2017-03-21 10:23:09,711 ERROR [main.timer(66):rec gather error:[rec_id=19]: 'operate_human_id']
-2017-03-21 10:23:09,924 ERROR [main.timer(66):rec gather error:[rec_id=20]: 'operate_human_id']
-2017-03-21 10:23:10,104 ERROR [main.timer(66):rec gather error:[rec_id=21]: 'operate_human_id']
-2017-03-21 10:23:10,279 ERROR [main.timer(66):rec gather error:[rec_id=23]: 'operate_human_id']
-2017-03-21 10:23:10,516 ERROR [main.timer(66):rec gather error:[rec_id=24]: 'operate_human_id']
-2017-03-21 10:23:10,750 ERROR [main.timer(66):rec gather error:[rec_id=25]: 'operate_human_id']
-2017-03-21 10:23:10,986 ERROR [main.timer(66):rec gather error:[rec_id=26]: 'operate_human_id']
-2017-03-21 10:23:11,203 ERROR [main.timer(66):rec gather error:[rec_id=27]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:23:11,516 ERROR [main.timer(66):rec gather error:[rec_id=28]: 'role_id']
-2017-03-21 10:23:11,691 ERROR [main.timer(66):rec gather error:[rec_id=29]: 'operate_human_id']
-2017-03-21 10:23:11,878 ERROR [main.timer(66):rec gather error:[rec_id=30]: 'operate_human_id']
-2017-03-21 10:23:12,076 ERROR [main.timer(66):rec gather error:[rec_id=31]: 'operate_human_id']
-2017-03-21 10:23:12,250 ERROR [main.timer(66):rec gather error:[rec_id=32]: delete_stat_rec_one() got an unexpected keyword argument 'stat_cur']
-2017-03-21 10:23:12,450 ERROR [main.timer(66):rec gather error:[rec_id=33]: 'operate_human_id']
-2017-03-21 10:23:12,605 ERROR [main.timer(66):rec gather error:[rec_id=34]: 'operate_human_id']
-2017-03-21 10:23:12,763 ERROR [main.timer(66):rec gather error:[rec_id=35]: 'operate_human_id']
-2017-03-21 10:23:12,976 ERROR [main.timer(66):rec gather error:[rec_id=36]: 'operate_human_id']
-2017-03-21 10:32:24,832 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 10:32:24,832 INFO [main.timer(45):采集开始:]
-2017-03-21 10:32:27,296 ERROR [main.timer(67):rec gather error:[rec_id=1]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 114, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:27,941 ERROR [main.timer(67):rec gather error:[rec_id=3]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:28,112 ERROR [main.timer(67):rec gather error:[rec_id=4]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:28,312 ERROR [main.timer(67):rec gather error:[rec_id=5]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:28,588 ERROR [main.timer(67):rec gather error:[rec_id=6]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:28,795 ERROR [main.timer(67):rec gather error:[rec_id=7]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:28,982 ERROR [main.timer(67):rec gather error:[rec_id=8]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:29,137 ERROR [main.timer(67):rec gather error:[rec_id=9]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:29,306 ERROR [main.timer(67):rec gather error:[rec_id=10]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:32:29,599 ERROR [main.timer(67):rec gather error:[rec_id=11]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 30, in get_stat_info_dict
-    __extend_accept_info(recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 106, in __extend_accept_info
-    stat_info_dict["operate_human_id"] == accept_act_inst_list[-1]["human_id"]
-KeyError: 'operate_human_id'
-]
-2017-03-21 10:37:03,476 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 10:37:03,476 INFO [main.timer(45):采集开始:]
-2017-03-21 10:37:15,076 ERROR [main.timer(67):rec gather error:[rec_id=29]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 36, in get_stat_info_dict
-    __extend_dispatch_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 208, in __extend_dispatch_info
-    dispatch_act_inst_list.sort("create_time")
-TypeError: 'str' object is not callable
-]
-2017-03-21 10:37:15,628 ERROR [main.timer(67):rec gather error:[rec_id=31]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 36, in get_stat_info_dict
-    __extend_dispatch_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 208, in __extend_dispatch_info
-    dispatch_act_inst_list.sort("create_time")
-TypeError: 'str' object is not callable
-]
-2017-03-21 10:38:39,549 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 10:38:39,551 INFO [main.timer(45):采集开始:]
-2017-03-21 10:38:58,230 ERROR [main.timer(67):rec gather error:[rec_id=107]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 41, in get_stat_info_dict
-    __extend_dispose_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 263, in __extend_dispose_info
-    stat_info_dict["overtime_to_dispose_num"] = stat_info_dict["to_dispose_num"] - stat_info_dict["intime_to_archive_num"]
-KeyError: 'intime_to_archive_num'
-]
-2017-03-21 10:39:00,187 ERROR [main.timer(67):rec gather error:[rec_id=117]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 41, in get_stat_info_dict
-    __extend_dispose_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 263, in __extend_dispose_info
-    stat_info_dict["overtime_to_dispose_num"] = stat_info_dict["to_dispose_num"] - stat_info_dict["intime_to_archive_num"]
-KeyError: 'intime_to_archive_num'
-]
-2017-03-21 10:39:02,448 ERROR [main.timer(67):rec gather error:[rec_id=123]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 41, in get_stat_info_dict
-    __extend_dispose_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 263, in __extend_dispose_info
-    stat_info_dict["overtime_to_dispose_num"] = stat_info_dict["to_dispose_num"] - stat_info_dict["intime_to_archive_num"]
-KeyError: 'intime_to_archive_num'
-]
-2017-03-21 10:39:02,701 ERROR [main.timer(67):rec gather error:[rec_id=124]: Traceback (most recent call last):
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 59, in timer
-    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
-    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 22, in gather_handler
-    gather_stat_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 38, in gather_stat_info
-    stat_info_dict = statInfoGatherHandler.get_stat_info_dict(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 41, in get_stat_info_dict
-    __extend_dispose_info(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, stat_info_dict = stat_info_dict)
-  File "F:/git/egova/nbcg/statgather/python\mainmodules\statInfoGatherHandler.py", line 263, in __extend_dispose_info
-    stat_info_dict["overtime_to_dispose_num"] = stat_info_dict["to_dispose_num"] - stat_info_dict["intime_to_archive_num"]
-KeyError: 'intime_to_archive_num'
-]
-2017-03-21 10:39:49,769 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 10:39:49,769 INFO [main.timer(45):采集开始:]
-2017-03-21 10:57:00,249 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 10:57:00,249 INFO [main.timer(45):采集开始:]
-2017-03-21 11:01:07,500 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 11:01:07,500 INFO [main.timer(45):采集开始:]
-2017-03-21 11:01:38,490 INFO [main.timer(81):已采集100条]
-2017-03-21 11:02:29,121 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 11:02:29,122 INFO [main.timer(45):采集开始:]
-2017-03-21 11:03:52,526 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 11:03:52,526 INFO [main.timer(45):采集开始:]
-2017-03-21 11:04:21,622 INFO [main.timer(81):已采集100条, 剩余3263条]
-2017-03-21 11:04:48,157 INFO [main.timer(81):已采集200条, 剩余3163条]
-2017-03-21 11:05:14,993 INFO [main.timer(81):已采集300条, 剩余3063条]
-2017-03-21 11:05:42,036 INFO [main.timer(81):已采集400条, 剩余2963条]
-2017-03-21 13:50:23,082 INFO [main.timer(44):---------------------------------------------]
-2017-03-21 13:50:23,092 INFO [main.timer(45):采集开始:]
-2017-03-21 13:50:53,581 INFO [main.timer(81):已采集100条, 剩余6883条]
+2017-03-23 14:02:25,914 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 14:02:25,917 INFO [main.timer(45):采集开始:]
+2017-03-23 14:02:56,377 INFO [main.timer(81):已采集100条, 剩余562条]
+2017-03-23 14:03:25,471 INFO [main.timer(81):已采集200条, 剩余462条]
+2017-03-23 14:03:57,460 INFO [main.timer(81):已采集300条, 剩余362条]
+2017-03-23 14:04:29,555 INFO [main.timer(81):已采集400条, 剩余262条]
+2017-03-23 14:04:57,808 INFO [main.timer(81):已采集500条, 剩余162条]
+2017-03-23 14:05:24,862 INFO [main.timer(81):已采集600条, 剩余62条]
+2017-03-23 14:05:42,313 INFO [main.timer(92):采集完成:]
+2017-03-23 14:05:42,313 INFO [main.timer(93):共采集 662 条案件,耗时 0:03:16.400000 ]
+2017-03-23 14:05:42,315 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:10:42.314000]
+2017-03-23 14:10:42,331 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 14:10:42,332 INFO [main.timer(45):采集开始:]
+2017-03-23 14:10:42,359 INFO [main.timer(92):采集完成:]
+2017-03-23 14:10:42,361 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.029000 ]
+2017-03-23 14:10:42,361 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:15:42.360000]
+2017-03-23 14:15:42,361 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 14:15:42,361 INFO [main.timer(45):采集开始:]
+2017-03-23 14:15:42,374 INFO [main.timer(92):采集完成:]
+2017-03-23 14:15:42,375 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 14:15:42,375 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:20:42.374000]
+2017-03-23 18:44:55,957 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 18:44:55,973 INFO [main.timer(45):采集开始:]
+2017-03-23 18:45:54,543 INFO [main.timer(81):已采集100条, 剩余562条]
+2017-03-23 18:46:29,082 INFO [main.timer(81):已采集200条, 剩余462条]
+2017-03-23 18:47:02,433 INFO [main.timer(81):已采集300条, 剩余362条]
+2017-03-23 18:47:36,701 INFO [main.timer(81):已采集400条, 剩余262条]
+2017-03-23 18:48:06,384 INFO [main.timer(81):已采集500条, 剩余162条]
+2017-03-23 18:48:34,894 INFO [main.timer(81):已采集600条, 剩余62条]
+2017-03-23 18:48:51,335 INFO [main.timer(92):采集完成:]
+2017-03-23 18:48:51,336 INFO [main.timer(93):共采集 662 条案件,耗时 0:03:55.378000 ]
+2017-03-23 18:48:51,338 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 18:53:51.335000]
+2017-03-23 18:53:51,339 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 18:53:51,341 INFO [main.timer(45):采集开始:]
+2017-03-23 18:53:51,355 INFO [main.timer(92):采集完成:]
+2017-03-23 18:53:51,355 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.016000 ]
+2017-03-23 18:53:51,357 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 18:58:51.356000]
+2017-03-23 18:58:51,358 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 18:58:51,358 INFO [main.timer(45):采集开始:]
+2017-03-23 18:58:51,372 INFO [main.timer(92):采集完成:]
+2017-03-23 18:58:51,374 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
+2017-03-23 18:58:51,375 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:03:51.373000]
+2017-03-23 19:03:51,375 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:03:51,375 INFO [main.timer(45):采集开始:]
+2017-03-23 19:03:51,394 INFO [main.timer(92):采集完成:]
+2017-03-23 19:03:51,395 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.020000 ]
+2017-03-23 19:03:51,397 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:08:51.395000]
+2017-03-23 19:08:51,397 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:08:51,398 INFO [main.timer(45):采集开始:]
+2017-03-23 19:08:51,427 INFO [main.timer(92):采集完成:]
+2017-03-23 19:08:51,427 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.030000 ]
+2017-03-23 19:08:51,428 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:13:51.427000]
+2017-03-23 19:13:51,430 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:13:51,430 INFO [main.timer(45):采集开始:]
+2017-03-23 19:13:51,444 INFO [main.timer(92):采集完成:]
+2017-03-23 19:13:51,444 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
+2017-03-23 19:13:51,444 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:18:51.443000]
+2017-03-23 19:18:51,444 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:18:51,444 INFO [main.timer(45):采集开始:]
+2017-03-23 19:18:51,454 INFO [main.timer(92):采集完成:]
+2017-03-23 19:18:51,456 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
+2017-03-23 19:18:51,456 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:23:51.455000]
+2017-03-23 19:23:51,456 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:23:51,456 INFO [main.timer(45):采集开始:]
+2017-03-23 19:23:51,464 INFO [main.timer(92):采集完成:]
+2017-03-23 19:23:51,466 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
+2017-03-23 19:23:51,466 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:28:51.465000]
+2017-03-23 19:28:51,466 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:28:51,466 INFO [main.timer(45):采集开始:]
+2017-03-23 19:28:51,476 INFO [main.timer(92):采集完成:]
+2017-03-23 19:28:51,476 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 19:28:51,477 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:33:51.477000]
+2017-03-23 19:33:51,477 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:33:51,477 INFO [main.timer(45):采集开始:]
+2017-03-23 19:33:51,487 INFO [main.timer(92):采集完成:]
+2017-03-23 19:33:51,487 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
+2017-03-23 19:33:51,489 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:38:51.488000]
+2017-03-23 19:38:51,489 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:38:51,489 INFO [main.timer(45):采集开始:]
+2017-03-23 19:38:51,502 INFO [main.timer(92):采集完成:]
+2017-03-23 19:38:51,502 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 19:38:51,503 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:43:51.501000]
+2017-03-23 19:43:51,509 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:43:51,509 INFO [main.timer(45):采集开始:]
+2017-03-23 19:43:51,520 INFO [main.timer(92):采集完成:]
+2017-03-23 19:43:51,520 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 19:43:51,520 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:48:51.521000]
+2017-03-23 19:48:51,522 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:48:51,522 INFO [main.timer(45):采集开始:]
+2017-03-23 19:48:51,530 INFO [main.timer(92):采集完成:]
+2017-03-23 19:48:51,532 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
+2017-03-23 19:48:51,532 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:53:51.531000]
+2017-03-23 19:53:51,532 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:53:51,532 INFO [main.timer(45):采集开始:]
+2017-03-23 19:53:51,542 INFO [main.timer(92):采集完成:]
+2017-03-23 19:53:51,542 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 19:53:51,543 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:58:51.543000]
+2017-03-23 19:58:51,543 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 19:58:51,546 INFO [main.timer(45):采集开始:]
+2017-03-23 19:58:51,562 INFO [main.timer(92):采集完成:]
+2017-03-23 19:58:51,562 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.018000 ]
+2017-03-23 19:58:51,563 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:03:51.562000]
+2017-03-23 20:03:51,563 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:03:51,563 INFO [main.timer(45):采集开始:]
+2017-03-23 20:03:51,575 INFO [main.timer(92):采集完成:]
+2017-03-23 20:03:51,575 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 20:03:51,576 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:08:51.575000]
+2017-03-23 20:08:51,576 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:08:51,578 INFO [main.timer(45):采集开始:]
+2017-03-23 20:08:51,592 INFO [main.timer(92):采集完成:]
+2017-03-23 20:08:51,592 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
+2017-03-23 20:08:51,594 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:13:51.592000]
+2017-03-23 20:13:51,595 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:13:51,595 INFO [main.timer(45):采集开始:]
+2017-03-23 20:13:51,605 INFO [main.timer(92):采集完成:]
+2017-03-23 20:13:51,607 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 20:13:51,608 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:18:51.606000]
+2017-03-23 20:18:51,608 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:18:51,608 INFO [main.timer(45):采集开始:]
+2017-03-23 20:18:51,642 INFO [main.timer(92):采集完成:]
+2017-03-23 20:18:51,644 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.034000 ]
+2017-03-23 20:18:51,644 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:23:51.643000]
+2017-03-23 20:23:51,644 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:23:51,644 INFO [main.timer(45):采集开始:]
+2017-03-23 20:23:51,655 INFO [main.timer(92):采集完成:]
+2017-03-23 20:23:51,655 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 20:23:51,657 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:28:51.656000]
+2017-03-23 20:28:51,657 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:28:51,657 INFO [main.timer(45):采集开始:]
+2017-03-23 20:28:51,670 INFO [main.timer(92):采集完成:]
+2017-03-23 20:28:51,670 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
+2017-03-23 20:28:51,671 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:33:51.670000]
+2017-03-23 20:33:51,671 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:33:51,671 INFO [main.timer(45):采集开始:]
+2017-03-23 20:33:51,680 INFO [main.timer(92):采集完成:]
+2017-03-23 20:33:51,680 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
+2017-03-23 20:33:51,680 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:38:51.680000]
+2017-03-23 20:38:51,683 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:38:51,684 INFO [main.timer(45):采集开始:]
+2017-03-23 20:38:51,713 INFO [main.timer(92):采集完成:]
+2017-03-23 20:38:51,713 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.030000 ]
+2017-03-23 20:38:51,713 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:43:51.713000]
+2017-03-23 20:43:51,713 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:43:51,713 INFO [main.timer(45):采集开始:]
+2017-03-23 20:43:51,726 INFO [main.timer(92):采集完成:]
+2017-03-23 20:43:51,726 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 20:43:51,727 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:48:51.726000]
+2017-03-23 20:48:51,730 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:48:51,730 INFO [main.timer(45):采集开始:]
+2017-03-23 20:48:51,740 INFO [main.timer(92):采集完成:]
+2017-03-23 20:48:51,742 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 20:48:51,742 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:53:51.741000]
+2017-03-23 20:53:51,743 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:53:51,743 INFO [main.timer(45):采集开始:]
+2017-03-23 20:53:51,759 INFO [main.timer(92):采集完成:]
+2017-03-23 20:53:51,760 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.017000 ]
+2017-03-23 20:53:51,760 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:58:51.760000]
+2017-03-23 20:58:51,762 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 20:58:51,762 INFO [main.timer(45):采集开始:]
+2017-03-23 20:58:51,776 INFO [main.timer(92):采集完成:]
+2017-03-23 20:58:51,776 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
+2017-03-23 20:58:51,776 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:03:51.777000]
+2017-03-23 21:03:51,778 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:03:51,778 INFO [main.timer(45):采集开始:]
+2017-03-23 21:03:51,788 INFO [main.timer(92):采集完成:]
+2017-03-23 21:03:51,789 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
+2017-03-23 21:03:51,789 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:08:51.788000]
+2017-03-23 21:08:51,790 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:08:51,792 INFO [main.timer(45):采集开始:]
+2017-03-23 21:08:51,809 INFO [main.timer(92):采集完成:]
+2017-03-23 21:08:51,811 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.019000 ]
+2017-03-23 21:08:51,812 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:13:51.810000]
+2017-03-23 21:13:51,812 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:13:51,812 INFO [main.timer(45):采集开始:]
+2017-03-23 21:13:51,825 INFO [main.timer(92):采集完成:]
+2017-03-23 21:13:51,825 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
+2017-03-23 21:13:51,825 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:18:51.825000]
+2017-03-23 21:18:51,826 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:18:51,826 INFO [main.timer(45):采集开始:]
+2017-03-23 21:18:51,841 INFO [main.timer(92):采集完成:]
+2017-03-23 21:18:51,842 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.014000 ]
+2017-03-23 21:18:51,842 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:23:51.841000]
+2017-03-23 21:23:51,842 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:23:51,842 INFO [main.timer(45):采集开始:]
+2017-03-23 21:23:51,855 INFO [main.timer(92):采集完成:]
+2017-03-23 21:23:51,855 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
+2017-03-23 21:23:51,855 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:28:51.855000]
+2017-03-23 21:28:51,855 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:28:51,857 INFO [main.timer(45):采集开始:]
+2017-03-23 21:28:51,867 INFO [main.timer(92):采集完成:]
+2017-03-23 21:28:51,867 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
+2017-03-23 21:28:51,868 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:33:51.867000]
+2017-03-23 21:33:51,868 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:33:51,868 INFO [main.timer(45):采集开始:]
+2017-03-23 21:33:51,881 INFO [main.timer(92):采集完成:]
+2017-03-23 21:33:51,881 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.014000 ]
+2017-03-23 21:33:51,882 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:38:51.882000]
+2017-03-23 21:38:51,882 INFO [main.timer(44):---------------------------------------------]
+2017-03-23 21:38:51,884 INFO [main.timer(45):采集开始:]
+2017-03-23 21:38:51,901 INFO [main.timer(92):采集完成:]
+2017-03-23 21:38:51,901 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.019000 ]
+2017-03-23 21:38:51,903 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:43:51.902000]

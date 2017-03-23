@@ -1,0 +1,73 @@
+alter table to_stat_info change column thrid_unit_name third_unit_name varchar(200);
+-- 删除冗余字段
+alter table to_stat_info drop column archive_end_date;
+alter table to_stat_info drop column over_time_times;
+alter table to_stat_info drop column visited_num;
+alter table to_stat_info drop column accur_dispatch_num;
+alter table to_stat_info drop column wrong_dispatch_num;
+alter table to_stat_info drop column event_district_grade_id;
+alter table to_stat_info drop column district_check_overtime_num;
+alter table to_stat_info drop column dispose_limit_time;
+alter table to_stat_info drop column wrong_prearchive_num;
+alter table to_stat_info drop column citydirect_archive_num;
+alter table to_stat_info drop column districtdirect_archive_num;
+alter table to_stat_info drop column dispose_time;
+alter table to_stat_info drop column twice_done_times;
+alter table to_stat_info drop column overtime_transback_num;
+alter table to_stat_info drop column check_pic_num;
+alter table to_stat_info drop column check_wav_num;
+alter table to_stat_info drop column end_time;
+alter table to_stat_info drop column public_complaints_num;
+alter table to_stat_info drop column inspection_num;
+alter table to_stat_info drop column assessment_report_num;
+alter table to_stat_info drop column video_report_num;
+alter table to_stat_info drop column district_video_inst_num;
+alter table to_stat_info drop column media_report_num;
+alter table to_stat_info drop column inspection_check_num;
+alter table to_stat_info drop column urban_video_report_num;
+alter table to_stat_info drop column urban_video_inst_num;
+alter table to_stat_info drop column other_report_num;
+alter table to_stat_info drop column onedispose_timeout_mul_num;
+alter table to_stat_info drop column dispatch_overtime_num;
+alter table to_stat_info drop column dispatch_error_num;
+alter table to_stat_info drop column check_overtime_num;
+alter table to_stat_info drop column prearchive_error_num;
+alter table to_stat_info drop column enforce_report_num;
+alter table to_stat_info drop column inst_overtime_num;
+alter table to_stat_info drop column not_inst_error_num;
+alter table to_stat_info drop column twice_done_num;
+alter table to_stat_info drop column transback_times;
+alter table to_stat_info drop column transback_num;
+alter table to_stat_info drop column prearchive_num;
+-- 区报表立案数明细
+alter table to_stat_info add patrol_inst_num tinyint default 0;
+alter table to_stat_info add district_video_inst_num tinyint default 0;
+alter table to_stat_info add city_video_inst_num tinyint default 0;
+alter table to_stat_info add assess_inst_num tinyint default 0;
+alter table to_stat_info add assign_inst_num tinyint default 0;
+alter table to_stat_info add inspection_inst_num tinyint default 0;
+alter table to_stat_info add internet_inst_num tinyint default 0;
+alter table to_stat_info add hotline_inst_num tinyint default 0;
+alter table to_stat_info add media_inst_num tinyint default 0;
+-- 自处置指标
+alter table to_stat_info add patrol_deal_flag tinyint default 0;
+alter table to_stat_info add patrol_deal_report_num tinyint default 0;
+alter table to_stat_info add patrol_deal_archive_num tinyint default 0;
+alter table to_stat_info add patrol_deal_cancel_num tinyint default 0;
+-- 错误派遣 准确派遣
+alter table to_stat_info add accur_dispatch_num tinyint default 0;
+alter table to_stat_info add wrong_dispatch_num tinyint default 0;
+-- 积存案件数 跳出积存案件数 进入积存时间
+alter table to_stat_info add stock_num tinyint default 0;
+alter table to_stat_info add escape_stock_num tinyint default 0;
+alter table to_stat_info add stock_time datetime;
+-- 回访指标
+alter table to_stat_info add need_reply_num tinyint default 0;
+alter table to_stat_info add reply_num tinyint default 0;
+alter table to_stat_info add to_visit_num tinyint default 0;
+alter table to_stat_info add visit_num tinyint default 0;
+alter table to_stat_info add omit_reply_num tinyint default 0;
+alter table to_stat_info add satisfaction_id tinyint default 0;
+alter table to_stat_info add satisfaction_score tinyint default 0;
+alter table to_stat_info add service_satisfaction_id tinyint default 0;
+alter table to_stat_info add service_satisfaction_score tinyint default 0;

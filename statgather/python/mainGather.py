@@ -1,9 +1,8 @@
-#coding:utf-8
+# coding:utf-8
 
-from tools.utils import insert_one, insert_many, copy_dict2dict as copy
-import constant.schemaConst as schemaConst
+from tools.utils import insert_one
 import logging
-
+from datetime import datetime
 """
     zwx 2016-03-16 main
     主版本采集
@@ -28,7 +27,10 @@ def gather_handler(stat_cur, biz_cur, recInfo, sysInfo):
     gather_dispatch_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
     # to_unit_workload_eval
     gather_unit_workload_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
-    
+    # 宁波项目采集
+    # to_stat_flow_info
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+
 """
     采集to_stat_info表
 """
@@ -95,3 +97,8 @@ def gather_dispatch_eval(stat_cur, biz_cur, recInfo, sysInfo):
 def gather_unit_workload_eval(stat_cur, biz_cur, recInfo, sysInfo):
     import mainmodules.unitWorkloadEvalGather as unitWorkloadEvalGather
     unitWorkloadEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+
+# 流转效率表采集
+def gather_stat_flow_info(stat_cur, biz_cur, recinfo, sysinfo):
+    import mainmodules.statflowgather as statflowgather
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
