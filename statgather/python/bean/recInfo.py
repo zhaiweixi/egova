@@ -312,6 +312,9 @@ class recInfoFactory(object):
                 wf_trans_act_dict["item_type_id"] = wf_trans_inst_dict["item_type_id"]
                 wf_trans_act_dict["next_act_def_id"] = wf_trans_inst_dict["next_act_def_id"]
                 wf_trans_act_dict["next_act_id"] = wf_trans_inst_dict["next_act_id"]
+                # 办结动作要单独处理
+                if wf_trans_inst_dict["item_type_id"] == 800:
+                    wf_trans_act_dict["end_time"] = self.__data["rec_info"]["archive_time"]
 
             temp_rec_time_bundle_list = filter(lambda x: x["act_id"] == act_id, rec_time_bundle_list)
             if temp_rec_time_bundle_list:

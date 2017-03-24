@@ -14,5 +14,7 @@ field = (
     # 城区ID 城区 街道ID 街道 社区ID 社区
     "district_id", "district_name", "street_id", "street_name", "community_id", "community_name",
     # 活动标识 环节ID 环节 流转用时 是否超时 开始时间 结束时间 截止时间 考核标识
-    "act_id", "cur_stage_id", "cur_stage_name", "flow_used", "overtime_flag", "start_time", "end_time", "deadline_time", "stat_flag"
+    "act_id", "cur_stage_id", "cur_stage_name", "flow_used", "overtime_flag", "start_time", "end_time", "deadline_time", "stat_flag",
+    # 环节计数 收发核查用时 核查用时
+    "flow_num", "rs_check_used", "check_used"
 )

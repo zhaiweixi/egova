@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/statgather$app.coverage" NAME="app Coverage Results" MODIFIED="1490265894874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/statgather$app.coverage" NAME="app Coverage Results" MODIFIED="1490318447370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/statgather$test.coverage" NAME="test Coverage Results" MODIFIED="1490081872069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/python/maintable/statinfo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -40,11 +40,9 @@
       <file leaf-file-name="statflowinfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/maintable/statflowinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <marker date="1490265412963" expanded="true" signature="92:111" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,11 +50,11 @@
       <file leaf-file-name="statflowgather.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/mainmodules/statflowgather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
-                <marker date="1490276465980" expanded="true" signature="3419:3431" ph="delete from " />
-                <marker date="1490276465980" expanded="true" signature="3419:3471" ph="delete from " />
+                <marker date="1490318678395" expanded="true" signature="6285:6297" ph="delete from " />
+                <marker date="1490318678395" expanded="true" signature="6285:6337" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -65,7 +63,7 @@
       <file leaf-file-name="statInfoGatherHandler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGatherHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="300">
               <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
@@ -75,8 +73,8 @@
       <file leaf-file-name="mainGather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/mainGather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="460">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="e#16#50#0" expanded="true" />
                 <marker date="1490264988107" expanded="true" signature="1645:1695" ph="delete from " />
@@ -92,30 +90,30 @@
       <file leaf-file-name="recInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/bean/recInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="289" column="30" lean-forward="false" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="30" />
+            <state relative-caret-position="8440">
+              <caret line="422" column="38" lean-forward="false" selection-start-line="422" selection-start-column="24" selection-end-line="422" selection-end-column="38" />
               <folding>
-                <marker date="1490236014227" expanded="true" signature="1959:3306" ph="select rec_i... " />
-                <marker date="1490236014227" expanded="true" signature="3855:3932" ph="select duty_... " />
-                <marker date="1490236014227" expanded="true" signature="5450:5541" ph="select item_... " />
-                <marker date="1490236014227" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
-                <marker date="1490236014227" expanded="true" signature="10395:10423" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="10395:10450" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="10742:10799" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="11099:11155" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="11451:11510" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="11818:11872" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="12160:12211" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="12424:12484" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="12796:12851" ph="select * fro... " />
-                <marker date="1490236014227" expanded="true" signature="17812:18315" ph="select act_i... " />
-                <marker date="1490236014227" expanded="true" signature="18396:18591" ph="select act_i... " />
-                <marker date="1490236014227" expanded="true" signature="18677:18930" ph="select act_i... " />
-                <marker date="1490236014227" expanded="true" signature="22332:22635" ph="select patro... " />
-                <marker date="1490236014227" expanded="true" signature="22875:23181" ph="select patro... " />
-                <marker date="1490236014227" expanded="true" signature="24101:24297" ph="select act_a... " />
-                <marker date="1490236014227" expanded="true" signature="24571:24625" ph="select rec_i... " />
-                <marker date="1490236014227" expanded="true" signature="24849:24903" ph="select rec_i... " />
+                <marker date="1490280512235" expanded="true" signature="1959:3306" ph="select rec_i... " />
+                <marker date="1490280512235" expanded="true" signature="3855:3932" ph="select duty_... " />
+                <marker date="1490280512235" expanded="true" signature="5450:5541" ph="select item_... " />
+                <marker date="1490280512235" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
+                <marker date="1490280512235" expanded="true" signature="10395:10423" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="10395:10450" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="10742:10799" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="11099:11155" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="11451:11510" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="11818:11872" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="12160:12211" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="12424:12484" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="12796:12851" ph="select * fro... " />
+                <marker date="1490280512235" expanded="true" signature="17994:18497" ph="select act_i... " />
+                <marker date="1490280512235" expanded="true" signature="18578:18773" ph="select act_i... " />
+                <marker date="1490280512235" expanded="true" signature="18859:19112" ph="select act_i... " />
+                <marker date="1490280512235" expanded="true" signature="22514:22817" ph="select patro... " />
+                <marker date="1490280512235" expanded="true" signature="23057:23363" ph="select patro... " />
+                <marker date="1490280512235" expanded="true" signature="24283:24479" ph="select act_a... " />
+                <marker date="1490280512235" expanded="true" signature="24753:24807" ph="select rec_i... " />
+                <marker date="1490280512235" expanded="true" signature="25031:25085" ph="select rec_i... " />
               </folding>
             </state>
           </provider>
@@ -124,8 +122,8 @@
       <file leaf-file-name="sysInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/bean/sysInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="279">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <marker date="1490077932409" expanded="true" signature="1043:1057" ph="select * fro... missing_value" />
                 <marker date="1490077932409" expanded="true" signature="1215:1229" ph="select * fro... missing_value" />
@@ -138,7 +136,7 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/tools/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="2600">
               <caret line="130" column="4" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
               <folding>
                 <marker date="1490076615102" expanded="true" signature="3642:3673" ph="insert into missing_value... " />
@@ -196,10 +194,10 @@
         <option value="$PROJECT_DIR$/python/projectGather.py" />
         <option value="$PROJECT_DIR$/python/mainmodules/dispatchEvalGather.py" />
         <option value="$PROJECT_DIR$/python/mainmodules/acceptEvalGather.py" />
-        <option value="$PROJECT_DIR$/python/bean/recInfo.py" />
         <option value="$PROJECT_DIR$/python/mainmodules/statInfoGatherHandler.py" />
         <option value="$PROJECT_DIR$/python/maintable/statinfo.py" />
         <option value="$PROJECT_DIR$/python/mainGather.py" />
+        <option value="$PROJECT_DIR$/python/bean/recInfo.py" />
         <option value="$PROJECT_DIR$/python/maintable/statflowinfo.py" />
         <option value="$PROJECT_DIR$/python/mainmodules/statflowgather.py" />
       </list>
@@ -292,24 +290,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statgather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statgather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="maintable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -346,24 +326,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="constant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statgather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statgather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -380,7 +342,7 @@
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="utils&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/tools/utils.py&#10;sysInfo&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/bean/sysInfo.py&#10;sysiN&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/bean/sysInfo.py&#10;statinfo&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/maintable/statinfo.py&#10;test&#9;null&#9;null&#10;sett&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/settings.py&#10;sysCon&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/constant/sysConst.py&#10;sysConf&#9;null&#9;null&#10;Sch&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="sysinfo&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/bean/sysInfo.py&#10;utils&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/tools/utils.py&#10;sysInfo&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/bean/sysInfo.py&#10;sysiN&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/bean/sysInfo.py&#10;statinfo&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/maintable/statinfo.py&#10;test&#9;null&#9;null&#10;sett&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/settings.py&#10;sysCon&#9;FILE&#9;file://F:/git/egova/nbcg/statgather/python/constant/sysConst.py&#10;sysConf&#9;null&#9;null&#10;Sch&#9;null&#9;null" />
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -664,11 +626,10 @@
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2625571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2716895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -681,6 +642,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -707,6 +669,117 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/python/maintable/statinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/maintable/statflowinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statflowgather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490318678395" expanded="true" signature="6285:6297" ph="delete from " />
+            <marker date="1490318678395" expanded="true" signature="6285:6337" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGatherHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainGather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#50#0" expanded="true" />
+            <marker date="1490264988107" expanded="true" signature="1645:1695" ph="delete from " />
+            <marker date="1490264988107" expanded="true" signature="2275:2329" ph="delete from " />
+            <marker date="1490264988107" expanded="true" signature="2550:2587" ph="insert into to_stat_main_info... " />
+            <marker date="1490264988107" expanded="true" signature="3005:3059" ph="delete from " />
+            <marker date="1490264988107" expanded="true" signature="3300:3337" ph="insert into to_stat_unit_eval... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/bean/recInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8440">
+          <caret line="422" column="38" lean-forward="false" selection-start-line="422" selection-start-column="24" selection-end-line="422" selection-end-column="38" />
+          <folding>
+            <marker date="1490280512235" expanded="true" signature="1959:3306" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="3855:3932" ph="select duty_... " />
+            <marker date="1490280512235" expanded="true" signature="5450:5541" ph="select item_... " />
+            <marker date="1490280512235" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
+            <marker date="1490280512235" expanded="true" signature="10395:10423" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10395:10450" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10742:10799" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11099:11155" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11451:11510" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11818:11872" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12160:12211" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12424:12484" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12796:12851" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="17994:18497" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18578:18773" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18859:19112" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="22514:22817" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="23057:23363" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="24283:24479" ph="select act_a... " />
+            <marker date="1490280512235" expanded="true" signature="24753:24807" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="25031:25085" ph="select rec_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/bean/sysInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <marker date="1490077932409" expanded="true" signature="1043:1057" ph="select * fro... missing_value" />
+            <marker date="1490077932409" expanded="true" signature="1215:1229" ph="select * fro... missing_value" />
+            <marker date="1490077932409" expanded="true" signature="2039:2104" ph="select act_p... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/tools/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="130" column="4" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+          <folding>
+            <marker date="1490076615102" expanded="true" signature="3642:3673" ph="insert into missing_value... " />
+            <marker date="1490076615102" expanded="true" signature="5125:5149" ph="select sysda... dual" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/maintable/statinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/maintable/statinfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -750,20 +823,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/accept.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="82" column="55" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="82" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/accept.py" />
     <entry file="file://$PROJECT_DIR$/python/projectGather.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <marker date="1490082340932" expanded="true" signature="8088:8171" ph="select bundl... to_rec_time_bundle" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,27 +836,27 @@
         <state relative-caret-position="320">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
-            <marker date="1490236014227" expanded="true" signature="1959:3306" ph="select rec_i... " />
-            <marker date="1490236014227" expanded="true" signature="3855:3932" ph="select duty_... " />
-            <marker date="1490236014227" expanded="true" signature="5450:5541" ph="select item_... " />
-            <marker date="1490236014227" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
-            <marker date="1490236014227" expanded="true" signature="10395:10423" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="10395:10450" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="10742:10799" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11099:11155" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11451:11510" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11818:11872" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12160:12211" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12424:12484" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12796:12851" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="17812:18315" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="18396:18591" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="18677:18930" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="22332:22635" ph="select patro... " />
-            <marker date="1490236014227" expanded="true" signature="22875:23181" ph="select patro... " />
-            <marker date="1490236014227" expanded="true" signature="24101:24297" ph="select act_a... " />
-            <marker date="1490236014227" expanded="true" signature="24571:24625" ph="select rec_i... " />
-            <marker date="1490236014227" expanded="true" signature="24849:24903" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="1959:3306" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="3855:3932" ph="select duty_... " />
+            <marker date="1490280512235" expanded="true" signature="5450:5541" ph="select item_... " />
+            <marker date="1490280512235" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
+            <marker date="1490280512235" expanded="true" signature="10395:10423" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10395:10450" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10742:10799" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11099:11155" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11451:11510" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11818:11872" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12160:12211" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12424:12484" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12796:12851" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="17994:18497" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18578:18773" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18859:19112" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="22514:22817" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="23057:23363" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="24283:24479" ph="select act_a... " />
+            <marker date="1490280512235" expanded="true" signature="24753:24807" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="25031:25085" ph="select rec_i... " />
           </folding>
         </state>
       </provider>
@@ -801,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,13 +903,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/accept.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="82" column="55" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="82" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/accept.py" />
     <entry file="file://D:/Python27/Lib/distutils/sysconfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -856,35 +911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/dispose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="137" column="17" lean-forward="true" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/special.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/dispose.py" />
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/check.py" />
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGather/special.py" />
     <entry file="file://D:/Python27/Lib/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -896,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,33 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="180" column="55" lean-forward="true" selection-start-line="180" selection-start-column="55" selection-end-line="180" selection-end-column="55" />
-          <folding>
-            <marker date="1486429454491" expanded="true" signature="2776:3334" ph="select act_i... act_id" />
-            <marker date="1486429454491" expanded="true" signature="2874:3323" ph="select act_i... " />
-            <marker date="1486429454491" expanded="true" signature="3849:4278" ph="select act_d... act_def_id" />
-            <marker date="1486429454491" expanded="true" signature="3873:4267" ph="select act_d... " />
-            <marker date="1486429454491" expanded="true" signature="4747:5180" ph="select act_d... act_def_name" />
-            <marker date="1486429454491" expanded="true" signature="4773:5169" ph="select act_d... " />
-            <marker date="1486429454491" expanded="true" signature="5698:6121" ph="select role_... role_id" />
-            <marker date="1486429454491" expanded="true" signature="5719:6110" ph="select role_... " />
-            <marker date="1486429454491" expanded="true" signature="6644:7072" ph="select act_d... act_def_id" />
-            <marker date="1486429454491" expanded="true" signature="6668:7061" ph="select act_d... " />
-            <marker date="1486429454491" expanded="true" signature="7597:8019" ph="select role_... role_id" />
-            <marker date="1486429454491" expanded="true" signature="7618:8008" ph="select role_... " />
-            <marker date="1486429454491" expanded="true" signature="8544:8972" ph="select act_d... act_def_id" />
-            <marker date="1486429454491" expanded="true" signature="8568:8961" ph="select act_d... " />
-            <marker date="1486429454491" expanded="true" signature="9498:9920" ph="select role_... role_id" />
-            <marker date="1486429454491" expanded="true" signature="9519:9909" ph="select role_... " />
-            <marker date="1486429454491" expanded="true" signature="10307:10370" ph="select unit_... " />
-            <marker date="1486429454491" expanded="true" signature="10783:10852" ph="select unit_... " />
-            <marker date="1486429454491" expanded="true" signature="11279:11349" ph="select unit_... " />
-            <marker date="1486429454491" expanded="true" signature="11767:11865" ph="select group... " />
-            <marker date="1486429454491" expanded="true" signature="12359:12505" ph="select count... " />
-            <marker date="1486429454491" expanded="true" signature="12989:13171" ph="select max(a... " />
-            <marker date="1486429454491" expanded="true" signature="13599:13663" ph="select end_t... " />
-            <marker date="1486429454491" expanded="true" signature="13924:13978" ph="select rec_i... " />
-            <marker date="1486429454491" expanded="true" signature="14202:14256" ph="select rec_i... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,10 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486429454196" expanded="true" signature="1200:1304" ph="select regio... " />
-            <marker date="1486429454196" expanded="true" signature="1996:2037" ph="select unit_... missing_value" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,16 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1580">
           <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding>
-            <element signature="e#143#183#0" expanded="false" />
-            <marker date="1490082046645" expanded="true" signature="1457:1476" ph="select rec_i... missing_value" />
-            <marker date="1490082046645" expanded="true" signature="1933:1963" ph="delete from " />
-            <marker date="1490082046645" expanded="true" signature="2366:2385" ph="select missi... dual" />
-            <marker date="1490082046645" expanded="true" signature="2561:2591" ph="delete from " />
-            <marker date="1490082046645" expanded="true" signature="2684:2767" ph="insert into missing_value... " />
-            <marker date="1490082046645" expanded="true" signature="2917:2958" ph="delete from " />
-            <marker date="1490082046645" expanded="true" signature="3012:3090" ph="insert into tr_gather_log... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,9 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1490082340932" expanded="true" signature="8088:8171" ph="select bundl... to_rec_time_bundle" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,9 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <marker date="1490078733245" expanded="true" signature="1112:1163" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,9 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="85" column="90" lean-forward="false" selection-start-line="85" selection-start-column="90" selection-end-line="85" selection-end-column="90" />
-          <folding>
-            <marker date="1490176258659" expanded="true" signature="5959:6010" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,9 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3680">
           <caret line="184" column="56" lean-forward="true" selection-start-line="184" selection-start-column="56" selection-end-line="184" selection-end-column="56" />
-          <folding>
-            <marker date="1490176301887" expanded="true" signature="916:968" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,83 +1003,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/bean/sysInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <marker date="1490077932409" expanded="true" signature="1043:1057" ph="select * fro... missing_value" />
-            <marker date="1490077932409" expanded="true" signature="1215:1229" ph="select * fro... missing_value" />
-            <marker date="1490077932409" expanded="true" signature="2039:2104" ph="select act_p... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGatherHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/maintable/statinfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/bean/recInfo.py">
+    <entry file="file://$PROJECT_DIR$/python/mainmodules/statInfoGatherHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="289" column="30" lean-forward="false" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="30" />
-          <folding>
-            <marker date="1490236014227" expanded="true" signature="1959:3306" ph="select rec_i... " />
-            <marker date="1490236014227" expanded="true" signature="3855:3932" ph="select duty_... " />
-            <marker date="1490236014227" expanded="true" signature="5450:5541" ph="select item_... " />
-            <marker date="1490236014227" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
-            <marker date="1490236014227" expanded="true" signature="10395:10423" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="10395:10450" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="10742:10799" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11099:11155" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11451:11510" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="11818:11872" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12160:12211" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12424:12484" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="12796:12851" ph="select * fro... " />
-            <marker date="1490236014227" expanded="true" signature="17812:18315" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="18396:18591" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="18677:18930" ph="select act_i... " />
-            <marker date="1490236014227" expanded="true" signature="22332:22635" ph="select patro... " />
-            <marker date="1490236014227" expanded="true" signature="22875:23181" ph="select patro... " />
-            <marker date="1490236014227" expanded="true" signature="24101:24297" ph="select act_a... " />
-            <marker date="1490236014227" expanded="true" signature="24571:24625" ph="select rec_i... " />
-            <marker date="1490236014227" expanded="true" signature="24849:24903" ph="select rec_i... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="130" column="4" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
-          <folding>
-            <marker date="1490076615102" expanded="true" signature="3642:3673" ph="insert into missing_value... " />
-            <marker date="1490076615102" expanded="true" signature="5125:5149" ph="select sysda... dual" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/mainGather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="460">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="e#16#50#0" expanded="true" />
             <marker date="1490264988107" expanded="true" signature="1645:1695" ph="delete from " />
@@ -1115,23 +1037,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/tools/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="130" column="4" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+          <folding>
+            <marker date="1490076615102" expanded="true" signature="3642:3673" ph="insert into missing_value... " />
+            <marker date="1490076615102" expanded="true" signature="5125:5149" ph="select sysda... dual" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/bean/recInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8440">
+          <caret line="422" column="38" lean-forward="false" selection-start-line="422" selection-start-column="24" selection-end-line="422" selection-end-column="38" />
+          <folding>
+            <marker date="1490280512235" expanded="true" signature="1959:3306" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="3855:3932" ph="select duty_... " />
+            <marker date="1490280512235" expanded="true" signature="5450:5541" ph="select item_... " />
+            <marker date="1490280512235" expanded="true" signature="9731:9794" ph="select act_p... tc_wf_act_def" />
+            <marker date="1490280512235" expanded="true" signature="10395:10423" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10395:10450" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="10742:10799" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11099:11155" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11451:11510" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="11818:11872" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12160:12211" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12424:12484" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="12796:12851" ph="select * fro... " />
+            <marker date="1490280512235" expanded="true" signature="17994:18497" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18578:18773" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="18859:19112" ph="select act_i... " />
+            <marker date="1490280512235" expanded="true" signature="22514:22817" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="23057:23363" ph="select patro... " />
+            <marker date="1490280512235" expanded="true" signature="24283:24479" ph="select act_a... " />
+            <marker date="1490280512235" expanded="true" signature="24753:24807" ph="select rec_i... " />
+            <marker date="1490280512235" expanded="true" signature="25031:25085" ph="select rec_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/maintable/statflowinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/bean/sysInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <marker date="1490265412963" expanded="true" signature="92:111" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1490077932409" expanded="true" signature="1043:1057" ph="select * fro... missing_value" />
+            <marker date="1490077932409" expanded="true" signature="1215:1229" ph="select * fro... missing_value" />
+            <marker date="1490077932409" expanded="true" signature="2039:2104" ph="select act_p... missing_value" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/mainmodules/statflowgather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <marker date="1490276465980" expanded="true" signature="3419:3431" ph="delete from " />
-            <marker date="1490276465980" expanded="true" signature="3419:3471" ph="delete from " />
+            <marker date="1490318678395" expanded="true" signature="6285:6297" ph="delete from " />
+            <marker date="1490318678395" expanded="true" signature="6285:6337" ph="delete from " />
           </folding>
         </state>
       </provider>

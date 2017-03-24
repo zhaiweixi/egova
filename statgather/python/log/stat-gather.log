@@ -1,202 +1,285 @@
-2017-03-23 14:02:25,914 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 14:02:25,917 INFO [main.timer(45):采集开始:]
-2017-03-23 14:02:56,377 INFO [main.timer(81):已采集100条, 剩余562条]
-2017-03-23 14:03:25,471 INFO [main.timer(81):已采集200条, 剩余462条]
-2017-03-23 14:03:57,460 INFO [main.timer(81):已采集300条, 剩余362条]
-2017-03-23 14:04:29,555 INFO [main.timer(81):已采集400条, 剩余262条]
-2017-03-23 14:04:57,808 INFO [main.timer(81):已采集500条, 剩余162条]
-2017-03-23 14:05:24,862 INFO [main.timer(81):已采集600条, 剩余62条]
-2017-03-23 14:05:42,313 INFO [main.timer(92):采集完成:]
-2017-03-23 14:05:42,313 INFO [main.timer(93):共采集 662 条案件,耗时 0:03:16.400000 ]
-2017-03-23 14:05:42,315 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:10:42.314000]
-2017-03-23 14:10:42,331 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 14:10:42,332 INFO [main.timer(45):采集开始:]
-2017-03-23 14:10:42,359 INFO [main.timer(92):采集完成:]
-2017-03-23 14:10:42,361 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.029000 ]
-2017-03-23 14:10:42,361 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:15:42.360000]
-2017-03-23 14:15:42,361 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 14:15:42,361 INFO [main.timer(45):采集开始:]
-2017-03-23 14:15:42,374 INFO [main.timer(92):采集完成:]
-2017-03-23 14:15:42,375 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 14:15:42,375 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 14:20:42.374000]
-2017-03-23 18:44:55,957 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 18:44:55,973 INFO [main.timer(45):采集开始:]
-2017-03-23 18:45:54,543 INFO [main.timer(81):已采集100条, 剩余562条]
-2017-03-23 18:46:29,082 INFO [main.timer(81):已采集200条, 剩余462条]
-2017-03-23 18:47:02,433 INFO [main.timer(81):已采集300条, 剩余362条]
-2017-03-23 18:47:36,701 INFO [main.timer(81):已采集400条, 剩余262条]
-2017-03-23 18:48:06,384 INFO [main.timer(81):已采集500条, 剩余162条]
-2017-03-23 18:48:34,894 INFO [main.timer(81):已采集600条, 剩余62条]
-2017-03-23 18:48:51,335 INFO [main.timer(92):采集完成:]
-2017-03-23 18:48:51,336 INFO [main.timer(93):共采集 662 条案件,耗时 0:03:55.378000 ]
-2017-03-23 18:48:51,338 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 18:53:51.335000]
-2017-03-23 18:53:51,339 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 18:53:51,341 INFO [main.timer(45):采集开始:]
-2017-03-23 18:53:51,355 INFO [main.timer(92):采集完成:]
-2017-03-23 18:53:51,355 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.016000 ]
-2017-03-23 18:53:51,357 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 18:58:51.356000]
-2017-03-23 18:58:51,358 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 18:58:51,358 INFO [main.timer(45):采集开始:]
-2017-03-23 18:58:51,372 INFO [main.timer(92):采集完成:]
-2017-03-23 18:58:51,374 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
-2017-03-23 18:58:51,375 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:03:51.373000]
-2017-03-23 19:03:51,375 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:03:51,375 INFO [main.timer(45):采集开始:]
-2017-03-23 19:03:51,394 INFO [main.timer(92):采集完成:]
-2017-03-23 19:03:51,395 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.020000 ]
-2017-03-23 19:03:51,397 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:08:51.395000]
-2017-03-23 19:08:51,397 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:08:51,398 INFO [main.timer(45):采集开始:]
-2017-03-23 19:08:51,427 INFO [main.timer(92):采集完成:]
-2017-03-23 19:08:51,427 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.030000 ]
-2017-03-23 19:08:51,428 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:13:51.427000]
-2017-03-23 19:13:51,430 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:13:51,430 INFO [main.timer(45):采集开始:]
-2017-03-23 19:13:51,444 INFO [main.timer(92):采集完成:]
-2017-03-23 19:13:51,444 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
-2017-03-23 19:13:51,444 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:18:51.443000]
-2017-03-23 19:18:51,444 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:18:51,444 INFO [main.timer(45):采集开始:]
-2017-03-23 19:18:51,454 INFO [main.timer(92):采集完成:]
-2017-03-23 19:18:51,456 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
-2017-03-23 19:18:51,456 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:23:51.455000]
-2017-03-23 19:23:51,456 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:23:51,456 INFO [main.timer(45):采集开始:]
-2017-03-23 19:23:51,464 INFO [main.timer(92):采集完成:]
-2017-03-23 19:23:51,466 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
-2017-03-23 19:23:51,466 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:28:51.465000]
-2017-03-23 19:28:51,466 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:28:51,466 INFO [main.timer(45):采集开始:]
-2017-03-23 19:28:51,476 INFO [main.timer(92):采集完成:]
-2017-03-23 19:28:51,476 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 19:28:51,477 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:33:51.477000]
-2017-03-23 19:33:51,477 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:33:51,477 INFO [main.timer(45):采集开始:]
-2017-03-23 19:33:51,487 INFO [main.timer(92):采集完成:]
-2017-03-23 19:33:51,487 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
-2017-03-23 19:33:51,489 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:38:51.488000]
-2017-03-23 19:38:51,489 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:38:51,489 INFO [main.timer(45):采集开始:]
-2017-03-23 19:38:51,502 INFO [main.timer(92):采集完成:]
-2017-03-23 19:38:51,502 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 19:38:51,503 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:43:51.501000]
-2017-03-23 19:43:51,509 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:43:51,509 INFO [main.timer(45):采集开始:]
-2017-03-23 19:43:51,520 INFO [main.timer(92):采集完成:]
-2017-03-23 19:43:51,520 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 19:43:51,520 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:48:51.521000]
-2017-03-23 19:48:51,522 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:48:51,522 INFO [main.timer(45):采集开始:]
-2017-03-23 19:48:51,530 INFO [main.timer(92):采集完成:]
-2017-03-23 19:48:51,532 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
-2017-03-23 19:48:51,532 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:53:51.531000]
-2017-03-23 19:53:51,532 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:53:51,532 INFO [main.timer(45):采集开始:]
-2017-03-23 19:53:51,542 INFO [main.timer(92):采集完成:]
-2017-03-23 19:53:51,542 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 19:53:51,543 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 19:58:51.543000]
-2017-03-23 19:58:51,543 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 19:58:51,546 INFO [main.timer(45):采集开始:]
-2017-03-23 19:58:51,562 INFO [main.timer(92):采集完成:]
-2017-03-23 19:58:51,562 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.018000 ]
-2017-03-23 19:58:51,563 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:03:51.562000]
-2017-03-23 20:03:51,563 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:03:51,563 INFO [main.timer(45):采集开始:]
-2017-03-23 20:03:51,575 INFO [main.timer(92):采集完成:]
-2017-03-23 20:03:51,575 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 20:03:51,576 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:08:51.575000]
-2017-03-23 20:08:51,576 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:08:51,578 INFO [main.timer(45):采集开始:]
-2017-03-23 20:08:51,592 INFO [main.timer(92):采集完成:]
-2017-03-23 20:08:51,592 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
-2017-03-23 20:08:51,594 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:13:51.592000]
-2017-03-23 20:13:51,595 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:13:51,595 INFO [main.timer(45):采集开始:]
-2017-03-23 20:13:51,605 INFO [main.timer(92):采集完成:]
-2017-03-23 20:13:51,607 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 20:13:51,608 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:18:51.606000]
-2017-03-23 20:18:51,608 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:18:51,608 INFO [main.timer(45):采集开始:]
-2017-03-23 20:18:51,642 INFO [main.timer(92):采集完成:]
-2017-03-23 20:18:51,644 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.034000 ]
-2017-03-23 20:18:51,644 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:23:51.643000]
-2017-03-23 20:23:51,644 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:23:51,644 INFO [main.timer(45):采集开始:]
-2017-03-23 20:23:51,655 INFO [main.timer(92):采集完成:]
-2017-03-23 20:23:51,655 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 20:23:51,657 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:28:51.656000]
-2017-03-23 20:28:51,657 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:28:51,657 INFO [main.timer(45):采集开始:]
-2017-03-23 20:28:51,670 INFO [main.timer(92):采集完成:]
-2017-03-23 20:28:51,670 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
-2017-03-23 20:28:51,671 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:33:51.670000]
-2017-03-23 20:33:51,671 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:33:51,671 INFO [main.timer(45):采集开始:]
-2017-03-23 20:33:51,680 INFO [main.timer(92):采集完成:]
-2017-03-23 20:33:51,680 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.009000 ]
-2017-03-23 20:33:51,680 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:38:51.680000]
-2017-03-23 20:38:51,683 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:38:51,684 INFO [main.timer(45):采集开始:]
-2017-03-23 20:38:51,713 INFO [main.timer(92):采集完成:]
-2017-03-23 20:38:51,713 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.030000 ]
-2017-03-23 20:38:51,713 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:43:51.713000]
-2017-03-23 20:43:51,713 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:43:51,713 INFO [main.timer(45):采集开始:]
-2017-03-23 20:43:51,726 INFO [main.timer(92):采集完成:]
-2017-03-23 20:43:51,726 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 20:43:51,727 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:48:51.726000]
-2017-03-23 20:48:51,730 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:48:51,730 INFO [main.timer(45):采集开始:]
-2017-03-23 20:48:51,740 INFO [main.timer(92):采集完成:]
-2017-03-23 20:48:51,742 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 20:48:51,742 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:53:51.741000]
-2017-03-23 20:53:51,743 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:53:51,743 INFO [main.timer(45):采集开始:]
-2017-03-23 20:53:51,759 INFO [main.timer(92):采集完成:]
-2017-03-23 20:53:51,760 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.017000 ]
-2017-03-23 20:53:51,760 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 20:58:51.760000]
-2017-03-23 20:58:51,762 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 20:58:51,762 INFO [main.timer(45):采集开始:]
-2017-03-23 20:58:51,776 INFO [main.timer(92):采集完成:]
-2017-03-23 20:58:51,776 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.015000 ]
-2017-03-23 20:58:51,776 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:03:51.777000]
-2017-03-23 21:03:51,778 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:03:51,778 INFO [main.timer(45):采集开始:]
-2017-03-23 21:03:51,788 INFO [main.timer(92):采集完成:]
-2017-03-23 21:03:51,789 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.010000 ]
-2017-03-23 21:03:51,789 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:08:51.788000]
-2017-03-23 21:08:51,790 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:08:51,792 INFO [main.timer(45):采集开始:]
-2017-03-23 21:08:51,809 INFO [main.timer(92):采集完成:]
-2017-03-23 21:08:51,811 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.019000 ]
-2017-03-23 21:08:51,812 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:13:51.810000]
-2017-03-23 21:13:51,812 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:13:51,812 INFO [main.timer(45):采集开始:]
-2017-03-23 21:13:51,825 INFO [main.timer(92):采集完成:]
-2017-03-23 21:13:51,825 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.013000 ]
-2017-03-23 21:13:51,825 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:18:51.825000]
-2017-03-23 21:18:51,826 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:18:51,826 INFO [main.timer(45):采集开始:]
-2017-03-23 21:18:51,841 INFO [main.timer(92):采集完成:]
-2017-03-23 21:18:51,842 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.014000 ]
-2017-03-23 21:18:51,842 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:23:51.841000]
-2017-03-23 21:23:51,842 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:23:51,842 INFO [main.timer(45):采集开始:]
-2017-03-23 21:23:51,855 INFO [main.timer(92):采集完成:]
-2017-03-23 21:23:51,855 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.012000 ]
-2017-03-23 21:23:51,855 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:28:51.855000]
-2017-03-23 21:28:51,855 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:28:51,857 INFO [main.timer(45):采集开始:]
-2017-03-23 21:28:51,867 INFO [main.timer(92):采集完成:]
-2017-03-23 21:28:51,867 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.011000 ]
-2017-03-23 21:28:51,868 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:33:51.867000]
-2017-03-23 21:33:51,868 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:33:51,868 INFO [main.timer(45):采集开始:]
-2017-03-23 21:33:51,881 INFO [main.timer(92):采集完成:]
-2017-03-23 21:33:51,881 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.014000 ]
-2017-03-23 21:33:51,882 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:38:51.882000]
-2017-03-23 21:38:51,882 INFO [main.timer(44):---------------------------------------------]
-2017-03-23 21:38:51,884 INFO [main.timer(45):采集开始:]
-2017-03-23 21:38:51,901 INFO [main.timer(92):采集完成:]
-2017-03-23 21:38:51,901 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.019000 ]
-2017-03-23 21:38:51,903 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-23 21:43:51.902000]
+2017-03-24 09:18:44,562 INFO [main.timer(44):---------------------------------------------]
+2017-03-24 09:18:44,569 INFO [main.timer(45):采集开始:]
+2017-03-24 09:18:58,790 INFO [main.timer(44):---------------------------------------------]
+2017-03-24 09:18:58,790 INFO [main.timer(45):采集开始:]
+2017-03-24 09:19:08,418 ERROR [main.timer(68):rec gather error:[rec_id=57]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:19,349 ERROR [main.timer(68):rec gather error:[rec_id=126]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:29,302 ERROR [main.timer(68):rec gather error:[rec_id=207]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:33,046 ERROR [main.timer(68):rec gather error:[rec_id=224]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:33,098 INFO [main.timer(81):已采集100条, 剩余550条]
+2017-03-24 09:19:37,309 ERROR [main.timer(68):rec gather error:[rec_id=245]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:44,147 ERROR [main.timer(68):rec gather error:[rec_id=275]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:53,928 ERROR [main.timer(68):rec gather error:[rec_id=313]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:56,811 ERROR [main.timer(68):rec gather error:[rec_id=323]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:57,332 ERROR [main.timer(68):rec gather error:[rec_id=325]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:58,173 ERROR [main.timer(68):rec gather error:[rec_id=327]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:59,319 ERROR [main.timer(68):rec gather error:[rec_id=331]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:19:59,641 ERROR [main.timer(68):rec gather error:[rec_id=332]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:00,796 ERROR [main.timer(68):rec gather error:[rec_id=334]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:02,316 ERROR [main.timer(68):rec gather error:[rec_id=337]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:02,392 INFO [main.timer(81):已采集200条, 剩余450条]
+2017-03-24 09:20:03,161 ERROR [main.timer(68):rec gather error:[rec_id=339]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:03,506 ERROR [main.timer(68):rec gather error:[rec_id=340]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:04,035 ERROR [main.timer(68):rec gather error:[rec_id=341]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:08,766 ERROR [main.timer(68):rec gather error:[rec_id=356]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 32, in gather_handler
+    gather_stat_flow_info(stat_cur=stat_cur, biz_cur=biz_cur, recinfo=recInfo, sysinfo=sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 104, in gather_stat_flow_info
+    statflowgather.execute(biz_cur=biz_cur, stat_cur=stat_cur, recinfo=recinfo, sysinfo=sysinfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\statflowgather.py", line 72, in execute
+    check_used = get_minutes(sysinfo.get_data("time_dict"), sysconst.default_sys_time_id, check_patrol_task_dict["create_time"], check_patrol_task_dict["done_time"])
+  File "F:/git/egova/nbcg/statgather/python\tools\timing.py", line 16, in get_minutes
+    calendar_list = timing_dict["calendar"]
+TypeError: 'NoneType' object has no attribute '__getitem__'
+]
+2017-03-24 09:20:48,098 INFO [main.timer(44):---------------------------------------------]
+2017-03-24 09:20:48,105 INFO [main.timer(45):采集开始:]
+2017-03-24 09:21:25,805 INFO [main.timer(81):已采集100条, 剩余338条]
+2017-03-24 09:21:59,203 INFO [main.timer(81):已采集200条, 剩余238条]
+2017-03-24 09:22:26,808 INFO [main.timer(81):已采集300条, 剩余138条]
+2017-03-24 09:22:54,233 INFO [main.timer(81):已采集400条, 剩余38条]
+2017-03-24 09:23:05,769 INFO [main.timer(92):采集完成:]
+2017-03-24 09:23:05,769 INFO [main.timer(93):共采集 438 条案件,耗时 0:02:17.672000 ]
+2017-03-24 09:23:05,769 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-24 09:28:05.770000]
