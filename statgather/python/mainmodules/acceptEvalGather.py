@@ -2,10 +2,10 @@
 import sys
 sys.path.append("..")
 import settings
-import tools.systemUtils as systemUtils
 import tools.timing as timing
 from tools.utils import insert_many, copy_dict2dict as copy
 import logging
+import constant.sysConst as sysConst
 """
     zwx 2016-03-16 main
     to_acceptor_eval
@@ -134,33 +134,40 @@ def __appendVerifyOrCheckTask(stat_cur, biz_cur, recInfo, sysInfo, accept_eval_l
                         copy(rec_info, accept_eval_dict)
                         accept_eval_dict["need_send_verify_num"] = 1
                         accept_eval_dict["send_verify_num"] = 1
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
+                        # accept_eval_dict["human_id"] = patrol_task["human_id"]
                         accept_eval_dict["execute_time"] = patrol_task["create_time"]
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
-                        human = systemUtils.get_human_byID(biz_cur, patrol_task["human_id"])
-                        accept_eval_dict["human_name"] = human["human_name"]
-                        accept_eval_dict["human_region_id"] = human["region_id"]
-                        accept_eval_dict["human_region_name"] = human["region_name"]
-                        minutes = timing.get_minutes(timing_dict, settings.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+                        if patrol_task["human_id"] in sysInfo.get_data("human"):
+                            accept_human = sysInfo.get_data("human")[patrol_task["human_id"]]
+                            accept_eval_dict["human_id"] = accept_human["human_id"]
+                            accept_eval_dict["human_name"] = accept_human["human_name"]
+                            if accept_human["region_id"] in sysInfo.get_data("region"):
+                                accept_eval_dict["human_region_id"] = accept_human["region_id"]
+                                accept_eval_dict["human_region_name"] = sysInfo.get_data("region")[accept_human["region_id"]]["region_name"]
+                        minutes = timing.get_minutes(timing_dict, sysConst.default_sys_time_id, act_inst["create_time"], patrol_task["create_time"])
                         if minutes <= settings.SEND_VERIFY_LIMIT:
                             accept_eval_dict["intime_send_verify_num"] = 1
                     # 字典表非空则加入到工作量List中
                     if accept_eval_dict:
                         accept_eval_list.append(accept_eval_dict)
-            elif act_inst["human_id"] > 0 and act_inst["start_time"]:
+            elif act_inst["human_id"] and act_inst["start_time"]:
                 for patrol_task in patrol_task_list:
                     accept_eval_dict = {}
                     if patrol_task["task_type"] == 2 and patrol_task["create_time"] > act_inst["start_time"]:
                         copy(rec_info, accept_eval_dict)
                         accept_eval_dict["need_send_verify_num"] = 1
                         accept_eval_dict["send_verify_num"] = 1
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
                         accept_eval_dict["execute_time"] = patrol_task["create_time"]
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
-                        human = systemUtils.get_human_byID(biz_cur, patrol_task["human_id"])
-                        accept_eval_dict["human_name"] = human["human_name"]
-                        accept_eval_dict["human_region_id"] = human["region_id"]
-                        accept_eval_dict["human_region_name"] = human["region_name"]
+                        if patrol_task["human_id"] in sysInfo.get_data("human"):
+                            accept_human = sysInfo.get_data("human")[patrol_task["human_id"]]
+                            accept_eval_dict["human_id"] = accept_human["human_id"]
+                            accept_eval_dict["human_name"] = accept_human["human_name"]
+                            if accept_human["region_id"] in sysInfo.get_data("region"):
+                                accept_eval_dict["human_region_id"] = accept_human["region_id"]
+                                accept_eval_dict["human_region_name"] = sysInfo.get_data("region")[accept_human["region_id"]]["region_name"]
+                        # human = systemUtils.get_human_byID(biz_cur, patrol_task["human_id"])
+                        # accept_eval_dict["human_name"] = human["human_name"]
+                        # accept_eval_dict["human_region_id"] = human["region_id"]
+                        # accept_eval_dict["human_region_name"] = human["region_name"]
                         minutes = timing.get_minutes(timing_dict, settings.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
                         if minutes <= settings.SEND_VERIFY_LIMIT:
                             accept_eval_dict["intime_send_verify_num"] = 1
@@ -178,13 +185,15 @@ def __appendVerifyOrCheckTask(stat_cur, biz_cur, recInfo, sysInfo, accept_eval_l
                         copy(rec_info, accept_eval_dict)
                         accept_eval_dict["need_send_check_num"] = 1
                         accept_eval_dict["send_check_num"] = 1
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
                         accept_eval_dict["execute_time"] = patrol_task["create_time"]
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
-                        human = systemUtils.get_human_byID(biz_cur, patrol_task["human_id"])
-                        accept_eval_dict["human_name"] = human["human_name"]
-                        accept_eval_dict["human_region_id"] = human["region_id"]
-                        accept_eval_dict["human_region_name"] = human["region_name"]
+                        if patrol_task["human_id"] in sysInfo.get_data("human"):
+                            accept_human = sysInfo.get_data("human")[patrol_task["human_id"]]
+                            accept_eval_dict["human_id"] = accept_human["human_id"]
+                            accept_eval_dict["human_name"] = accept_human["human_name"]
+                            if accept_human["region_id"] in sysInfo.get_data("region"):
+                                accept_eval_dict["human_region_id"] = accept_human["region_id"]
+                                accept_eval_dict["human_region_name"] = sysInfo.get_data("region")[accept_human["region_id"]]["region_name"]
+
                         minutes = timing.get_minutes(timing_dict, settings.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
                         if minutes <= settings.SEND_VERIFY_LIMIT:
                             accept_eval_dict["intime_send_check_num"] = 1
@@ -198,13 +207,16 @@ def __appendVerifyOrCheckTask(stat_cur, biz_cur, recInfo, sysInfo, accept_eval_l
                         copy(rec_info, accept_eval_dict)
                         accept_eval_dict["need_send_check_num"] = 1
                         accept_eval_dict["send_check_num"] = 1
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
                         accept_eval_dict["execute_time"] = patrol_task["create_time"]
-                        accept_eval_dict["human_id"] = patrol_task["human_id"]
-                        human = systemUtils.get_human_byID(biz_cur, patrol_task["human_id"])
-                        accept_eval_dict["human_name"] = human["human_name"]
-                        accept_eval_dict["human_region_id"] = human["region_id"]
-                        accept_eval_dict["human_region_name"] = human["region_name"]
+                        if patrol_task["human_id"] in sysInfo.get_data("human"):
+                            accept_human = sysInfo.get_data("human")[patrol_task["human_id"]]
+                            accept_eval_dict["human_id"] = accept_human["human_id"]
+                            accept_eval_dict["human_name"] = accept_human["human_name"]
+                            if accept_human["region_id"] in sysInfo.get_data("region"):
+                                accept_eval_dict["human_region_id"] = accept_human["region_id"]
+                                accept_eval_dict["human_region_name"] = \
+                                sysInfo.get_data("region")[accept_human["region_id"]]["region_name"]
+
                         minutes = timing.get_minutes(timing_dict, settings.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
                         if minutes <= settings.SEND_CHECK_LIMIT:
                             accept_eval_dict["intime_send_check_num"] = 1

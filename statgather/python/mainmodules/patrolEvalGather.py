@@ -1,7 +1,7 @@
-#coding: utf-8
+# coding: utf-8
 import sys
 sys.path.append("..")
-import tools.systemUtils as systemUtils
+# import tools.systemUtils as systemUtils
 import settings
 import tools.recutils as recutils
 from tools.utils import copy_dict2dict as copy, insert_many
@@ -42,16 +42,24 @@ def __appendReport(biz_cur, recInfo, sysInfo, patrol_eval_list):
     if rec_info["event_src_id"] in settings.patrol_report_src_tuple:
         copy(rec_info, patrol_eval_dict)
         patrol_eval_dict["patrol_report_num"] = 1
-        report_patrol_id = rec_info["patrol_id"]
-        patrol_eval_dict["human_id"] = report_patrol_id
+        patrol_eval_dict["human_id"] = rec_info["patrol_id"]
         patrol_eval_dict["human_name"] = rec_info["patrol_name"]
-        report_patrol = systemUtils.get_patrol_byID(biz_cur, report_patrol_id)
-        if report_patrol:
+        # report_patrol = systemUtils.get_patrol_byID(biz_cur, report_patrol_id)
+        # if report_patrol:
+        #     patrol_eval_dict["card_id"] = report_patrol["card_id"]
+        #     patrol_eval_dict["human_region_id"] = report_patrol["region_id"]
+        #     patrol_eval_dict["human_region_name"] = report_patrol["region_name"]
+        #     patrol_eval_dict["human_unit_id"] = report_patrol["unit_id"]
+        #     patrol_eval_dict["human_unit_name"] = report_patrol["unit_name"]
+        if rec_info["patrol_id"] in sysInfo.get_data("patrol"):
+            report_patrol = sysInfo.get_data("patrol")[rec_info["patrol_id"]]
             patrol_eval_dict["card_id"] = report_patrol["card_id"]
-            patrol_eval_dict["human_region_id"] = report_patrol["region_id"]
-            patrol_eval_dict["human_region_name"] = report_patrol["region_name"]
-            patrol_eval_dict["human_unit_id"] = report_patrol["unit_id"]
-            patrol_eval_dict["human_unit_name"] = report_patrol["unit_name"]
+            if report_patrol["unit_id"] in sysInfo.get_data("unit"):
+                patrol_eval_dict["human_unit_id"] = report_patrol["unit_id"]
+                patrol_eval_dict["human_unit_name"] = sysInfo.get_data("unit")[report_patrol["unit_id"]]["unit_name"]
+            if report_patrol["region_id"] in sysInfo.get_data("region"):
+                patrol_eval_dict["human_region_id"] = report_patrol["region_id"]
+                patrol_eval_dict["human_region_name"] = sysInfo.get_data("region")[report_patrol["region_id"]]["region_name"]
         patrol_eval_dict["report_patrol_id"] = rec_info["patrol_id"]
         patrol_eval_dict["report_patrol_name"] = rec_info["patrol_name"]
         patrol_eval_dict["execute_time"] = rec_info["create_time"]
@@ -77,11 +85,15 @@ def __appendVerify(biz_cur, recInfo, sysInfo, patrol_eval_list):
                 copy(rec_info, patrol_eval_dict)
                 patrol_eval_dict["need_verify_num"] = 1
                 verify_card_id = patrol_task_dict["card_id"]
-                verify_patrol = systemUtils.get_patrol_byCardID(biz_cur, verify_card_id)
-                patrol_eval_dict["card_id"] = verify_card_id
-                if verify_patrol:
+                if verify_card_id in sysInfo.get_data("patrol_card"):
+                    verify_patrol = sysInfo.get_data("patrol_card")[verify_card_id]
                     patrol_eval_dict["human_id"] = verify_patrol["patrol_id"]
                     patrol_eval_dict["human_name"] = verify_patrol["patrol_name"]
+                # verify_patrol = systemUtils.get_patrol_byCardID(biz_cur, verify_card_id)
+                # patrol_eval_dict["card_id"] = verify_card_id
+                # if verify_patrol:
+                #     patrol_eval_dict["human_id"] = verify_patrol["patrol_id"]
+                #     patrol_eval_dict["human_name"] = verify_patrol["patrol_name"]
                 if patrol_task_dict["done_flag"] == 1:
                     patrol_eval_dict["verify_num"] = 1
                     patrol_eval_dict["execute_time"] = patrol_task_dict["done_time"]
@@ -121,26 +133,36 @@ def __appendCheck(biz_cur, recInfo, sysInfo, patrol_eval_list):
             try:
                 copy(rec_info, patrol_eval_dict)
                 card_id = patrol_task_dict["card_id"]
-                check_patrol = systemUtils.get_patrol_byCardID(biz_cur, card_id)
-                patrol_eval_dict["card_id"] = card_id
-                patrol_eval_dict["need_check_num"] = 1
-                if check_patrol:
+                if card_id in sysInfo.get_data("patrol_card"):
+                    check_patrol = sysInfo.get_data("patrol_card")[card_id]
+                    patrol_eval_dict["card_id"] = card_id
                     patrol_eval_dict["human_id"] = check_patrol["patrol_id"]
                     patrol_eval_dict["human_name"] = check_patrol["patrol_name"]
-                    patrol_eval_dict["human_region_id"] = check_patrol["region_id"]
-                    patrol_eval_dict["human_region_name"] = check_patrol["region_name"]
-                    patrol_eval_dict["human_unit_id"] = check_patrol["unit_id"]
-                    patrol_eval_dict["human_unit_name"] = check_patrol["unit_name"]
+                    if check_patrol["unit_id"] in sysInfo.get_data("unit"):
+                        patrol_eval_dict["human_unit_name"] = check_patrol["unit_id"]
+                        patrol_eval_dict["human_unit_name"] = sysInfo.get_data("unit")[check_patrol["unit_id"]]["unit_name"]
+                    if check_patrol["region_id"] in sysInfo.get_data("region"):
+                        patrol_eval_dict["human_region_id"] = check_patrol["region_id"]
+                        patrol_eval_dict["human_region_name"] = sysInfo.get_data("region")[check_patrol["region_id"]]["region_name"]
+                # check_patrol = systemUtils.get_patrol_byCardID(biz_cur, card_id)
+                # patrol_eval_dict["card_id"] = card_id
+                patrol_eval_dict["need_check_num"] = 1
+                # if check_patrol:
+                #     patrol_eval_dict["human_id"] = check_patrol["patrol_id"]
+                #     patrol_eval_dict["human_name"] = check_patrol["patrol_name"]
+                #     patrol_eval_dict["human_region_id"] = check_patrol["region_id"]
+                #     patrol_eval_dict["human_region_name"] = check_patrol["region_name"]
+                #     patrol_eval_dict["human_unit_id"] = check_patrol["unit_id"]
+                #     patrol_eval_dict["human_unit_name"] = check_patrol["unit_name"]
                 if patrol_task_dict["done_flag"] == 1:
                     patrol_eval_dict["check_num"] = 1
                     patrol_eval_dict["execute_time"] = patrol_task_dict["done_time"]
-                    check_used = patrol_task_dict["used_time"]
                     patrol_eval_dict["invalid_check_num"] = get_invalid_check_num(patrol_task_dict, act_inst_list, patrol_task_list, sysInfo)
                 else:
                     patrol_eval_dict["to_check_num"] = 1
                     patrol_eval_dict["execute_time"] = patrol_task_dict["create_time"]
 
-                #项目定制
+                # 项目定制
                 if rec_info["event_src_id"] in settings.patrol_report_src_tuple:
                     patrol_eval_dict["report_patrol_id"] = rec_info["patrol_id"]
                     patrol_eval_dict["report_patrol_name"] = rec_info["patrol_name"]

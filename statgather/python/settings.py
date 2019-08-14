@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+VERSION = 2.0
+
 # 数据库配置
 # dbTypeName 数据库类型 oracle | mysql
 # stat_conn 统计库连接配置
@@ -10,21 +12,21 @@ dbTypeName = "mysql"
 stat_conn = {
     "host": "127.0.0.1",
     "port": 3306,
-    "db": "cgdbstat",
+    "db": "nbcgstat",
     "user": "root",
-    "password": "egova",
+    "password": "admin",
     "charset": "utf8"
 }
-stat_db_name = "cgdbstat"
+stat_db_name = "nbcgstat"
 biz_conn = {
     "host": "127.0.0.1",
     "port": 3306,
-    "db": "cgdb",
+    "db": "nbcg",
     "user": "root",
-    "password": "egova",
+    "password": "admin",
     "charset": "utf8"
 }
-biz_db_name = "cgdb"
+biz_db_name = "nbcg"
 # ================================================================
 # 采集配置
 # 监督员上报问题来源标识

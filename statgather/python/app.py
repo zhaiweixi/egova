@@ -12,10 +12,11 @@ import time
 import settings
 from bean.recInfo import recInfoFactory
 from bean.sysInfo import sysInfoFactory
-from tools.utils import get_bizdb_conn, get_statdb_conn, query_for_list
+from tools.utils import get_bizdb_conn, get_statdb_conn
 import constant.schemaConst as schemaConst
 import logging
 import logging.config
+import traceback
 
 """
     采集处理方法
@@ -32,7 +33,7 @@ def gather_one_handler(biz_cur, stat_cur, rec_id, sysInfo):
     else:
         # 删除案件
         from tools.statDataManager import delete_stat_rec_one
-        delete_stat_rec_one(stat_cur = stat_cur, rec_id = rec_id)
+        delete_stat_rec_one(cur = stat_cur, rec_id = rec_id)
 
 """
     定时执行任务
@@ -52,6 +53,7 @@ def timer(n):
     if biz_cur.rowcount > 0 :
         iRecCount = biz_cur.rowcount
         sysInfo = sysInfoFactory(biz_cur = biz_cur, stat_cur = stat_cur)
+        count = 0
         for rec in rec_list:
             rec_id = rec[0]
             try:
@@ -63,7 +65,7 @@ def timer(n):
 
             except Exception, e:
                 stat_conn.rollback() # 先回滚错误采集已更新部分
-                logger.error("rec gather error:[rec_id=%s]: %s" % (rec_id, str(e)))
+                logger.error("rec gather error:[rec_id=%s]: %s" % (rec_id, traceback.format_exc()))
                 if (settings.dbTypeName == "oracle"):
                     stat_cur.execute("select %s from dual" % (schemaConst.umstat_ + "sr_gather_log.nextval"))
                     row = stat_cur.fetchone()
@@ -74,13 +76,16 @@ def timer(n):
                     stat_cur.execute("delete from tr_gather_log where rec_id = %s" % (rec_id))
                     stat_cur.execute("insert into tr_gather_log(rec_id, gather_time, gather_desc) values(%s, %s, %s)",(rec_id, datetime.now(), str(e)))
                 stat_conn.commit()
+            count += 1
+            if count % 100 == 0:
+                logger.info(u"已采集%s条, 剩余%s条" % (count, iRecCount - count))
     try:
         import afterGatherHandler as afterGatherHandler
         afterGatherHandler.execute(stat_cur = stat_cur, biz_cur = biz_cur)
         biz_conn.commit()
         stat_conn.commit()
     except Exception, e:
-        logger.error("afterGatherHandler error: %s" % str(e))
+        logger.error("afterGatherHandler error: %s" % traceback.format_exc())
     biz_conn.close()
     stat_conn.close()
     dtGatherEnd = datetime.now()
@@ -94,7 +99,7 @@ def timer(n):
 """
 def start():
     while True:
-        if datetime.now().strftime("%H") not in ("23", "01", "02", "03", "04", "05"):
+        if datetime.now().strftime("%H") not in ("23", "01", "00", "02", "03", "04", "05"):
             timer(settings.gather_interval)
 if __name__ == "__main__":
     logging.config.fileConfig("conf/main_log.conf")

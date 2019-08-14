@@ -1,4 +1,4 @@
-#coding: utf-8
+# coding: utf-8
 import sys
 sys.path.append("..")
 from tools.utils import copy_dict2dict as copy, insert_many
@@ -47,25 +47,16 @@ def execute(stat_cur, biz_cur, recInfo, sysInfo):
                     dispatch_eval_dict["overtime_dc_num"] = 1
                 else:
                     dispatch_eval_dict["intime_dc_num"] = 1
-            if dispatch_eval_dict:
+            if dispatch_eval_dict and act_inst["human_id"] in sysInfo.get_data("human"):
                 dispatch_eval_dict["action_start_time"] = act_inst["create_time"]
                 dispatch_eval_dict["action_end_time"] = act_inst["end_time"]
+                dispatch_human = sysInfo.get_data("human")[act_inst["human_id"]]
                 dispatch_eval_dict["human_id"] = act_inst["human_id"]
-                dispatch_eval_dict["human_name"] = act_inst["human_name"]
+                dispatch_eval_dict["human_name"] = dispatch_human["human_name"]
                 dispatch_eval_dict["role_id"] = act_inst["role_id"]
-                human = get_human_byID(biz_cur, dispatch_eval_dict["human_id"])
-                if human:
-                    dispatch_eval_dict["human_region_id"] = human["region_id"]
-                    dispatch_eval_dict["human_region_name"] = human["region_name"]
-                    # 人员属于街道
-                    if human["region_type"] and human["region_type"] == 3:
-                        dispatch_eval_dict["human_street_id"] = human["region_id"]
-                        dispatch_eval_dict["human_street_name"] = human["region_name"]
-                        street = get_region_byID(biz_cur, human["region_id"])
-                        if street:
-                            region = get_region_byID(biz_cur, street["senior_id"])
-                            dispatch_eval_dict["human_region_id"] = region["region_id"]
-                            dispatch_eval_dict["human_region_name"] = region["region_name"]
+                if dispatch_human["region_id"] in sysInfo.get_data("region"):
+                    dispatch_eval_dict["human_region_id"] = dispatch_human["region_id"]
+                    dispatch_eval_dict["human_region_name"] = sysInfo.get_data("region")[dispatch_human["region_id"]]["region_name"]
         except Exception, e:
             dispatch_eval_dict = {}
             logger.error(u"派遣员工作量采集失败[rec_id = %s]: %s" % (rec_id, str(e)))
@@ -92,26 +83,18 @@ def execute(stat_cur, biz_cur, recInfo, sysInfo):
                 dispatch_eval_dict["to_dc_num"] = 1
                 if act_inst["deadline_time"] and now > act_inst["deadline_time"]:
                     dispatch_eval_dict["overtime_to_dc_num"] = 1
-            if dispatch_eval_dict:
+            if dispatch_eval_dict and act_inst_list["human_id"] in sysInfo.get_data("human"):
                 dispatch_eval_dict["execute_time"] = act_inst["create_time"]
                 dispatch_eval_dict["action_start_time"] = act_inst["create_time"]
                 dispatch_eval_dict["action_end_time"] = act_inst["create_time"]
+                dispatch_human = sysInfo.get_data("human")[act_inst["human_id"]]
                 dispatch_eval_dict["human_id"] = act_inst["human_id"]
-                dispatch_eval_dict["human_name"] = act_inst["human_name"]
+                dispatch_eval_dict["human_name"] = dispatch_human["human_name"]
                 dispatch_eval_dict["role_id"] = act_inst["role_id"]
-                human = get_human_byID(biz_cur, dispatch_eval_dict["human_id"])
-                if human:
-                    dispatch_eval_dict["human_region_id"] = human["region_id"]
-                    dispatch_eval_dict["human_region_name"] = human["region_name"]
-                    # 人员属于街道
-                    if human["region_type"] and human["region_type"] == 3:
-                        dispatch_eval_dict["human_street_id"] = human["region_id"]
-                        dispatch_eval_dict["human_street_name"] = human["region_name"]
-                        street = get_region_byID(biz_cur, human["region_id"])
-                        if street:
-                            region = get_region_byID(biz_cur, street["senior_id"])
-                            dispatch_eval_dict["human_region_id"] = region["region_id"]
-                            dispatch_eval_dict["human_region_name"] = region["region_name"]
+                if dispatch_human["region_id"] in sysInfo.get_data("region"):
+                    dispatch_eval_dict["human_region_id"] = dispatch_human["region_id"]
+                    dispatch_eval_dict["human_region_name"] = sysInfo.get_data("region")[dispatch_human["region_id"]][
+                        "region_name"]
                 dispatch_eval_list.append(dispatch_eval_dict)
 
     except Exception, e:

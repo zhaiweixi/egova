@@ -1,0 +1,262 @@
+2017-03-22 17:39:30,849 INFO [main.timer(44):---------------------------------------------]
+2017-03-22 17:39:30,854 INFO [main.timer(45):采集开始:]
+2017-03-22 17:42:05,463 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:08,066 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:10,663 ERROR [main.timer(68):rec gather error:[rec_id=64]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:42:17,203 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:17,901 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:18,220 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:18,536 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:22,039 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:25,124 INFO [main.timer(81):已采集100条, 剩余603条]
+2017-03-22 17:42:25,259 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:27,532 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:28,625 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:28,848 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:29,085 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:30,861 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:42:36,994 ERROR [main.timer(68):rec gather error:[rec_id=218]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:42:42,989 ERROR [main.timer(68):rec gather error:[rec_id=246]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:42:43,194 ERROR [main.timer(68):rec gather error:[rec_id=248]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:42:44,720 ERROR [main.timer(68):rec gather error:[rec_id=255]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:42:54,148 INFO [main.timer(81):已采集200条, 剩余503条]
+2017-03-22 17:43:22,144 INFO [main.timer(81):已采集300条, 剩余403条]
+2017-03-22 17:43:50,584 INFO [main.timer(81):已采集400条, 剩余303条]
+2017-03-22 17:44:18,936 INFO [main.timer(81):已采集500条, 剩余203条]
+2017-03-22 17:44:52,418 INFO [main.timer(81):已采集600条, 剩余103条]
+2017-03-22 17:45:22,227 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:45:30,486 INFO [main.timer(81):已采集700条, 剩余3条]
+2017-03-22 17:45:30,740 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:45:31,161 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:45:31,578 ERROR [main.tools.utils.query_for_dict(84):[sql=select a.human_id, a.human_name, a.unit_id, a.region_id, a.region_type, b.unit_name, c.region_name from tc_human a, tc_unit b, tc_region c where a.human_id = 0 and b.unit_id = a.unit_id and c.region_id = a.region_id]:Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python\tools\utils.py", line 82, in query_for_dict
+    result_dict = dict(zip(columns, cur.fetchone()))
+TypeError: zip argument #2 must support iteration
+]
+2017-03-22 17:45:31,874 INFO [main.timer(92):采集完成:]
+2017-03-22 17:45:31,875 INFO [main.timer(93):共采集 703 条案件,耗时 0:06:01.025000 ]
+2017-03-22 17:45:31,875 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-22 17:50:31.874000]
+2017-03-22 17:51:02,414 INFO [main.timer(44):---------------------------------------------]
+2017-03-22 17:51:02,414 INFO [main.timer(45):采集开始:]
+2017-03-22 17:51:04,450 ERROR [main.timer(68):rec gather error:[rec_id=64]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:51:04,704 ERROR [main.timer(68):rec gather error:[rec_id=218]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:51:04,927 ERROR [main.timer(68):rec gather error:[rec_id=246]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:51:05,203 ERROR [main.timer(68):rec gather error:[rec_id=248]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:51:05,457 ERROR [main.timer(68):rec gather error:[rec_id=255]: Traceback (most recent call last):
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 60, in timer
+    gather_one_handler(biz_cur = biz_cur, stat_cur = stat_cur, rec_id = rec[0], sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python/app.py", line 29, in gather_one_handler
+    mainGather.gather_handler(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 25, in gather_handler
+    gather_accept_eval(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainGather.py", line 86, in gather_accept_eval
+    acceptEvalGather.execute(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 19, in execute
+    __appendVerifyOrCheckTask(stat_cur = stat_cur, biz_cur = biz_cur, recInfo = recInfo, sysInfo = sysInfo, accept_eval_list = accept_eval_list)
+  File "F:/git/egova/nbcg/statgather/python\mainmodules\acceptEvalGather.py", line 146, in __appendVerifyOrCheckTask
+    minutes = timing.get_minutes(timing_dict, sysConst.default_time_sys_id, act_inst["create_time"], patrol_task["create_time"])
+AttributeError: 'module' object has no attribute 'default_time_sys_id'
+]
+2017-03-22 17:51:05,513 INFO [main.timer(92):采集完成:]
+2017-03-22 17:51:05,513 INFO [main.timer(93):共采集 5 条案件,耗时 0:00:03.098000 ]
+2017-03-22 17:51:05,513 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-22 17:56:05.512000]
+2017-03-22 17:51:46,621 INFO [main.timer(44):---------------------------------------------]
+2017-03-22 17:51:46,621 INFO [main.timer(45):采集开始:]
+2017-03-22 17:51:50,451 INFO [main.timer(92):采集完成:]
+2017-03-22 17:51:50,453 INFO [main.timer(93):共采集 5 条案件,耗时 0:00:03.831000 ]
+2017-03-22 17:51:50,453 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-22 17:56:50.452000]
+2017-03-22 17:52:05,226 INFO [main.timer(44):---------------------------------------------]
+2017-03-22 17:52:05,226 INFO [main.timer(45):采集开始:]
+2017-03-22 17:52:05,292 INFO [main.timer(92):采集完成:]
+2017-03-22 17:52:05,292 INFO [main.timer(93):共采集 0 条案件,耗时 0:00:00.066000 ]
+2017-03-22 17:52:05,293 INFO [main.timer(94):采集任务挂起，下一次采集时间为: 2017-03-22 17:57:05.292000]

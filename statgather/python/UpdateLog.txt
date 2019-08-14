@@ -1,3 +1,4 @@
+# 2017-03-18 zwx
 # zwc 2016.05.05
 添加对oracle数据库采集的支持
 主要涉及的有两个方法，第一个是get_insert_sql，屏蔽mysql和oracle绑定变量之间的差距，另外一个方式trans_oracle_encoding，
